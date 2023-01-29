@@ -67,12 +67,12 @@
 
 .tag {
   position: absolute;
-  background: #f9a318;
+  background: rgb(120, 32, 0);
   border-radius: 20px;
   color: white;
   top: -10px;
   left: 10px;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   height: 20px;
   padding: 0px 10px;
   line-height: 20px;
@@ -80,9 +80,9 @@
 
 .thumbnail-footer a {
   display: inline-block;
-  background: #177dc2;
+  background: #0a3754;
   color: white;
-  font-size: 12px;
+  font-size: 0.8rem;
   border-radius: 20px;
   text-decoration: none;
   padding: 5px 10px;
@@ -97,5 +97,16 @@
 @media screen and (max-width: 390px) {
   .thumbs {
     width: 95%;
+  }
+}
+@media screen and (min-width: 751px) and (max-width: 900px) {
+  .divThumbs figure {
+    height: 17rem;
+  }
+  .divThumbs figure img {
+    height: 8rem;
+  }
+  .divThumbs figcaption {
+    height: 9rem;
   }
 }

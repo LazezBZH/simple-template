@@ -17,15 +17,18 @@
   max-width: 900px;
   width: 70%;
   margin: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
 
 .step {
   position: relative;
-  margin-left: 2rem;
+  width: 50%;
+  margin-left: 25%;
   background: #ecf0f1;
   margin-bottom: 20px;
   border-radius: 2px 30px 30px 2px;
-
   text-align: left;
   padding: 10px;
 }
@@ -51,4 +54,18 @@
 .step-title {
   width: auto;
   margin: 0;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 650px) {
+  .step {
+    width: 80%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .history {
+    width: 95%;
+  }
 }

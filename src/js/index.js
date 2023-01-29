@@ -18,7 +18,7 @@ function renderSiteModel(firm) {
   body.style.backgroundSize = "cover";
   body.style.backgroundPosition = "center center";
 
-  const sectionCard = document.createElement("section");
+  const sectionCard = document.createElement("header");
   const sectionThumbs = document.createElement("section");
   const sectionHistory = document.createElement("section");
 
@@ -30,7 +30,7 @@ function renderSiteModel(firm) {
   page.appendChild(sectionThumbs);
   page.appendChild(sectionHistory);
 
-  sectionCard.innerHTML = `<img class="firm-picture" src="${firm.logo}"/>
+  sectionCard.innerHTML = `<img class="firm-picture" alt="logo de ${firm.name}" src="${firm.logo}"/>
   <h1 class="firm-name">${firm.name}</h1>
                     <h2 class="firm-domaine">${firm.domaine}</h2>
                     <hr>
@@ -59,11 +59,11 @@ function renderSiteModel(firm) {
 
     divThumbs.innerHTML += `<figure class="thumbnail">
     <img class="thumbnail-cover" id="thumbnail-cover" src="${product.cover}"
-         alt="">
+         alt="${product.title}">
     <figcaption>
     <div class="thumbnail-content">
                            <span class="tag" id="tag">${product.tag}</span>
-    <p class="thumbnail-title" > ${product.title}</p>
+    <h4 class="thumbnail-title" > ${product.title}</h4>
                             <p class="thumbnail-description" >${product.description}</p>
                             <div class="thumbnail-footer">
                                 <a href="${product.footer}" target="_blank" >En savoir plus</a>

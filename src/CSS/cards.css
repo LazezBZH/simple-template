@@ -17,22 +17,22 @@
 .firm-name {
   margin-top: 4rem;
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: capitalize;
 }
 .firm-domaine {
   margin-top: 0;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .firm-adress,
 .firm-adress2 {
   color: rgba(0, 0, 0, 0.7);
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 .firm-hours {
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.7);
 }
 .firm-picture {
@@ -55,11 +55,12 @@
   font-size: 16px;
   margin: 10px;
   text-decoration: none;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 650px) {
   .card {
-    width: 95%;
+    width: 97%;
+    padding: 20px 10px;
   }
 }
