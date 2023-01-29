@@ -21,14 +21,27 @@ function renderSiteModel(firm) {
   const sectionCard = document.createElement("header");
   const sectionThumbs = document.createElement("section");
   const sectionHistory = document.createElement("section");
+  const reloadTop = document.createElement("div");
+  const reloadBottom = document.createElement("div");
 
   sectionCard.classList.add("card");
   sectionThumbs.classList.add("thumbs");
   sectionHistory.classList.add("history");
+  reloadTop.classList.add("reload", "reload-top");
+  reloadBottom.classList.add("reload", "reload-bottom");
 
+  page.appendChild(reloadTop);
   page.appendChild(sectionCard);
   page.appendChild(sectionThumbs);
   page.appendChild(sectionHistory);
+  page.appendChild(reloadBottom);
+
+  reloadTop.innerHTML = `<button type="button" onClick="window.location.reload()">
+   Montrer un autre exemple
+</button>`;
+  reloadBottom.innerHTML = `<button type="button" onClick="window.location.reload()">
+   Montrer un autre exemple
+</button>`;
 
   sectionCard.innerHTML = `<img class="firm-picture" alt="logo de ${firm.name}" src="${firm.logo}"/>
   <h1 class="firm-name">${firm.name}</h1>
