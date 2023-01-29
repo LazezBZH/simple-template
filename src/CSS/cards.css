@@ -1,0 +1,65 @@
+.card {
+  position: relative;
+  background: rgb(255, 251, 244);
+  max-width: 1400px;
+  width: 70%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.card hr {
+  width: 30%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.firm-name {
+  margin-top: 4rem;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+.firm-domaine {
+  margin-top: 0;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+}
+.firm-adress,
+.firm-adress2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.5rem;
+}
+.firm-hours {
+  font-size: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.firm-picture {
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  top: -80px;
+  left: calc(50% - 75px);
+  border: 5px solid rgba(60, 60, 60, 0.7);
+  background-color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 390px) {
+  .card {
+    width: 95%;
+  }
+}

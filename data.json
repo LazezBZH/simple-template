@@ -1,0 +1,512 @@
+[
+  {
+    "id": "1",
+    "logo": "/assets/logo/logo1.png",
+    "background": "/assets/background/background1.jpg",
+    "color": "#71817a",
+    "name": "La bonne Table",
+    "adress": "31, boulevard de Bouvier",
+    "adress2": "68964 FernandesVille",
+    "horaires": "du mercredi au dimanche 12h-14h et 19-23h",
+    "domaine": "Restaurant gastronomique",
+    "telephone": "1111111111",
+    "email": "labonne.table@example.com",
+    "facebook": "",
+    "products": [
+      {
+        "cover": "/assets/products/products1/product1.jpg",
+        "tag": "Plats",
+        "title": "Planche dégustation",
+        "description": "à partager",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products1/product2.jpg",
+        "tag": "Plats",
+        "title": "Menu végétarien",
+        "description": "cuisiné avec des produits locaux",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products1/product3.jpg",
+        "tag": "Plats",
+        "title": "Desserts",
+        "description": "faits sur place avec des produits de saison",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products1/product4.jpg",
+        "tag": "Décors",
+        "title": "Une jolie table",
+        "description": "pour que chaque repas soit une fête",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products1/product5.jpg",
+        "tag": "Plats",
+        "title": "Quiche La Bonne Table",
+        "description": "notre spécialité, pour connaitre son secret venez la goûter",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products1/product6.jpg",
+        "tag": "Décors",
+        "title": "Vaisselle rafinée",
+        "description": "pour un jour repas inoubliable",
+        "footer": ""
+      }
+    ],
+    "story": [
+      {
+        "date": "Novembre 2011",
+        "event": "Aggrandissement"
+      },
+      {
+        "date": "Janvier 2007",
+        "event": "Déménagement à l'adresse actuelle"
+      },
+      {
+        "date": "Mars 1997",
+        "event": "Création de l'entreprise"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "logo": "/assets/logo/logo1.png",
+    "background": "/assets/background/background2.jpg",
+    "color": "#759043",
+    "name": "Épicerie du coin",
+    "adress": "557, rue Thibaut Marin",
+    "adress2": "44446 Riou-sur-Vallet",
+    "horaires": "mardi à samedi:8h-20h, dimanche 8h-13h",
+    "domaine": "Magasin d'alimentation de détail",
+    "telephone": "2222222222",
+    "email": "epicerie.ducoin@example.com",
+    "facebook": "",
+    "products": [
+      {
+        "cover": "/assets/products/products2/product1.jpg",
+        "tag": "Fruits",
+        "title": "De saison",
+        "description": "et bien frais, locaux au maximum",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products2/product2.jpg",
+        "tag": "En vrac",
+        "title": "Céréales et épices variées",
+        "description": "quinoa, riz, pates...",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products2/product3.jpg",
+        "tag": "Fruits",
+        "title": "Un gand choix",
+        "description": "et toujours la fraîcheur et la qualité",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products2/product4.jpg",
+        "tag": "Légumes",
+        "title": "De saison",
+        "description": "été comme hiver faites le plein de vitamines",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products2/product5.jpg",
+        "tag": "Légumes",
+        "title": "Du choix et de la qualité",
+        "description": "provenance de cultivateurs locaux",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products2/product6.jpg",
+        "tag": "En vrac",
+        "title": "Céréales et épices variées",
+        "description": "astuce: amenez vos propres contenants",
+        "footer": ""
+      }
+    ],
+
+    "story": [
+      {
+        "date": "Novembre 2017",
+        "event": "Aggrandissement"
+      },
+      {
+        "date": "Janvier 2005",
+        "event": "Déménagement à l'adresse actuelle"
+      },
+      {
+        "date": "Mars 2000",
+        "event": "Création de l'entreprise"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "logo": "/assets/logo/logo1.png",
+    "background": "/assets/background/background3.jpg",
+    "color": "#26AFB5",
+    "name": "Beaux habits",
+    "adress": "5, avenue Gabrielle Roussel",
+    "adress2": "97215 Delorme",
+    "horaires": "lundi à samedi 9h-12h30 et 14h-19h30",
+    "domaine": "Boutique de mode",
+    "telephone": "33333333333",
+    "email": "beaux.habits@example.com",
+    "facebook": "",
+    "products": [
+      {
+        "cover": "/assets/products/products3/product1.jpg",
+        "tag": "Pantalons",
+        "title": "Tendances",
+        "description": "osez la couleur!",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products3/product2.jpg",
+        "tag": "Robes",
+        "title": "Un gand choix",
+        "description": "pour chaque saison",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products3/product3.jpg",
+        "tag": "Enfants",
+        "title": "Mode fille",
+        "description": "la plus belle pour aller danser",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products3/product4.jpg",
+        "tag": "Enfants",
+        "title": "Mode garçon",
+        "description": "pour avoir la classe comme un grand",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products3/product5.jpg",
+        "tag": "Pantalons",
+        "title": "Jeans",
+        "description": "de nombreuses marques en stock",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products3/product6.jpg",
+        "tag": "Robes",
+        "title": "Une saison, plusieurs styles",
+        "description": "choisissez le vôtre!",
+        "footer": ""
+      }
+    ],
+
+    "story": [
+      {
+        "date": "Novembre 2002",
+        "event": "Aggrandissement"
+      },
+      {
+        "date": "Janvier 1995",
+        "event": "Déménagement à l'adresse actuelle"
+      },
+      {
+        "date": "Mars 1990",
+        "event": "Création de l'entreprise"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "logo": "/assets/logo/logo1.png",
+    "background": "/assets/background/background4.jpg",
+    "color": "#595a52",
+    "name": "Sous les Toits",
+    "adress": "47, impasse Paul Camus",
+    "adress2": "68508 Danieldan",
+    "horaires": "lundi à samedi 9h-12h et 14h-20h",
+    "domaine": "Agence immobilière",
+    "telephone": "4444444444",
+    "email": "sousles.toits@example.com",
+    "facebook": "",
+    "products": [
+      {
+        "cover": "/assets/products/products4/product1.jpg",
+        "tag": "Maisons",
+        "title": "Vente et location",
+        "description": "Maisons anciennes",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products4/product2.jpg",
+        "tag": "Maisons",
+        "title": "Vente et location",
+        "description": "Maisons neuves",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products4/product3.jpg",
+        "tag": "Home staging",
+        "title": "Conseils",
+        "description": "pour un intérieur contemporain",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products4/product4.jpg",
+        "tag": "Appartements",
+        "title": "Vente et location",
+        "description": "appartements anciens",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products4/product5.jpg",
+        "tag": "Home staging",
+        "title": "Conseils",
+        "description": "pour un intérieur chaleureux",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products4/product6.jpg",
+        "tag": "Appartements",
+        "title": "Vente et location",
+        "description": "appartements neufs, vente sur plans",
+        "footer": ""
+      }
+    ],
+
+    "story": [
+      {
+        "date": "Novembre 2022",
+        "event": "Aggrandissement"
+      },
+      {
+        "date": "Janvier 2009",
+        "event": "Déménagement à l'adresse actuelle"
+      },
+      {
+        "date": "Mars 1999",
+        "event": "Création de l'entreprise"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "logo": "/assets/logo/logo1.png",
+    "background": "/assets/background/background5.jpg",
+    "color": "#BA4D4A",
+    "name": "Coup'Tifs",
+    "adress": "72, avenue de Jacquet",
+    "adress2": "52970 Gimenez",
+    "horaires": "lundi à samedi 9h-13h et 14h-19h",
+    "domaine": "Coiffeur mixte",
+    "telephone": "5555555555",
+    "email": "coup.tifs@example.com",
+    "facebook": "",
+    "products": [
+      {
+        "cover": "/assets/products/products5/product1.jpg",
+        "tag": "Femme",
+        "title": "Coupe moderne",
+        "description": "avec un conseil pro adapté",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products5/product2.jpg",
+        "tag": "Femme",
+        "title": "Brushing",
+        "description": "tout en douceur",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products5/product3.jpg",
+        "tag": "Homme",
+        "title": "Coupe",
+        "description": "selon vos envies",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products5/product4.jpg",
+        "tag": "Jour J",
+        "title": "Coiffure de cérémonie",
+        "description": "déplacement à domicile possible",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products5/product5.jpg",
+        "tag": "Enfants",
+        "title": "Coupe enfants et bébé",
+        "description": "avec beaucoup de patience",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products5/product6.jpg",
+        "tag": "Homme",
+        "title": "Barber shop",
+        "description": "prestation de qualité",
+        "footer": ""
+      }
+    ],
+
+    "story": [
+      {
+        "date": "Novembre 2015",
+        "event": "Aggrandissement"
+      },
+      {
+        "date": "Janvier 2003",
+        "event": "Déménagement à l'adresse actuelle"
+      },
+      {
+        "date": "Mars 1995",
+        "event": "Création de l'entreprise"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "logo": "/assets/logo/logo1.png",
+    "background": "/assets/background/background6.jpg",
+    "color": "#aaa9aa",
+    "name": "ToutEnTech",
+    "adress": "342, rue Hernandez",
+    "adress2": "02809 OlivierVille",
+    "horaires": "lundi à samedi 9h-20h",
+    "domaine": "Boutique high tech",
+    "telephone": "6666666666",
+    "email": "touten.tech@example.com",
+    "facebook": "",
+    "products": [
+      {
+        "cover": "/assets/products/products6/product1.jpg",
+        "tag": "PC",
+        "title": "Vente et maintenance",
+        "description": "fixes ou portables, windows, mac ou linux",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products6/product2.jpg",
+        "tag": "PC",
+        "title": "Accessoires",
+        "description": "souris, claviers, web cams...",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products6/product3.jpg",
+        "tag": "Téléphonie",
+        "title": "Vente",
+        "description": "Smartphones androïd ou IOs",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products6/product4.jpg",
+        "tag": "Games",
+        "title": "Jeux",
+        "description": "toutes consoles",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products6/product5.jpg",
+        "tag": "Téléphonie",
+        "title": "Réparation",
+        "description": "changement d'écran, de batterie, toute réparation ",
+        "footer": ""
+      },
+      {
+        "cover": "/assets/products/products6/product6.jpg",
+        "tag": "Games",
+        "title": "Consoles",
+        "description": "portables ou de salon",
+        "footer": ""
+      }
+    ],
+
+    "story": [
+      {
+        "date": "Novembre 2019",
+        "event": "Aggrandissement"
+      },
+      {
+        "date": "Janvier 2008",
+        "event": "Déménagement à l'adresse actuelle"
+      },
+      {
+        "date": "Mars 2002",
+        "event": "Création de l'entreprise"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "logo": "/assets/logo/logo1.png",
+    "background": "../../assets/background/background7.jpg",
+    "color": "#513834",
+    "name": "Les bonnes notes",
+    "adress": "641, rue de Becker",
+    "adress2": "19765 Navarro",
+    "horaires": "lundi à samedi 9h-20h",
+    "domaine": "Magasin de musique",
+    "telephone": "7777777777",
+    "email": "lesbonnes.notes@example.com",
+    "facebook": "",
+    "products": [
+      {
+        "cover": "../../assets/products/products7/product1.jpg",
+        "tag": "Instruments",
+        "title": "Pianos",
+        "description": "conseils, vente et location",
+        "footer": ""
+      },
+      {
+        "cover": "../../assets/products/products7/product2.jpg",
+        "tag": "Supports",
+        "title": "Vinyles",
+        "description": "un grand choix, du vintage et du récent",
+        "footer": ""
+      },
+      {
+        "cover": "../../assets/products/products7/product3.jpg",
+        "tag": "Matériel",
+        "title": "Enceintes",
+        "description": "marques, qualité et petits prix",
+        "footer": ""
+      },
+      {
+        "cover": "../../assets/products/products7/product4.jpg",
+        "tag": "Instruments",
+        "title": "Guitares",
+        "description": "conseils, vente et location",
+        "footer": ""
+      },
+      {
+        "cover": "../../assets/products/products7/product5.jpg",
+        "tag": "Supports",
+        "title": "CD",
+        "description": "dès leur sortie trouvez les dans nos bacs",
+        "footer": ""
+      },
+      {
+        "cover": "../../assets/products/products7/product6.jpg",
+        "tag": "Matériel",
+        "title": "Amplis",
+        "description": "tout ce dont vous avez besoin pour jouer comme un pro",
+        "footer": ""
+      }
+    ],
+
+    "story": [
+      {
+        "date": "Novembre 2021",
+        "event": "Aggrandissement"
+      },
+      {
+        "date": "Janvier 2012",
+        "event": "Déménagement à l'adresse actuelle"
+      },
+      {
+        "date": "Mars 2005",
+        "event": "Création de l'entreprise"
+      }
+    ]
+  }
+]

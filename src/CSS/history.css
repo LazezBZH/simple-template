@@ -1,0 +1,54 @@
+.history {
+  position: relative;
+  max-width: 1600px;
+  width: 75%;
+  margin: auto;
+  margin-top: 0;
+  border-radius: 0 0 11px 11px;
+}
+
+.history hr {
+  border: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.divHistory {
+  position: relative;
+  max-width: 900px;
+  width: 70%;
+  margin: auto;
+}
+
+.step {
+  position: relative;
+  margin-left: 2rem;
+  background: #ecf0f1;
+  margin-bottom: 20px;
+  border-radius: 2px 30px 30px 2px;
+
+  text-align: left;
+  padding: 10px;
+}
+
+.step::after {
+  content: "*";
+  text-align: center;
+  line-height: 1.2rem;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #ecf0f1;
+  position: absolute;
+  top: 30px;
+  left: -2.2rem;
+}
+
+.step-date {
+  width: auto;
+  font-weight: 700;
+}
+
+.step-title {
+  width: auto;
+  margin: 0;
+}
