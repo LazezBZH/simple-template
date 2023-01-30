@@ -41,9 +41,9 @@ h3 {
 }
 
 .reload-top {
-  position: relative;
-  bottom: 8%;
-  width: 100%;
+  position: absolute;
+  top: 2%;
+  width: 98%;
   display: flex;
   justify-content: space-between;
 }
@@ -75,15 +75,9 @@ h3 {
 }
 .reload button a {
   color: white;
-  color: white;
   text-decoration: none;
 }
 @media screen and (max-width: 900px) {
-  /* .reload-top {
-    position: relative;
-    right: 45%;
-    bottom: 1%;
-  } */
   .reload-bottom {
     position: relative;
     right: -45%;
