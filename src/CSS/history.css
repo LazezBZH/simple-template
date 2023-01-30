@@ -4,7 +4,7 @@
   width: 75%;
   margin: auto;
   margin-top: 0;
-  border-radius: 0 0 11px 11px;
+  border-radius: 0;
 }
 
 .history hr {
@@ -17,9 +17,6 @@
   max-width: 900px;
   width: 70%;
   margin: auto;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 
 .step {

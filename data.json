@@ -70,6 +70,23 @@
           "date": "Mars 1997",
           "event": "Création de l'entreprise"
         }
+      ],
+      "staf": [
+        {
+          "photo": "/assets/staf/staf1/person1.jpg",
+          "name": "Nathalie",
+          "fonction": "Gérante"
+        },
+        {
+          "photo": "/assets/staf/staf1/person2.jpg",
+          "name": "Charles",
+          "fonction": "Cuisinier"
+        },
+        {
+          "photo": "/assets/staf/staf1/person3.jpg",
+          "name": "Xavier",
+          "fonction": "Serveur"
+        }
       ]
     },
     {
@@ -142,6 +159,23 @@
         {
           "date": "Mars 2000",
           "event": "Création de l'entreprise"
+        }
+      ],
+      "staf": [
+        {
+          "photo": "/assets/staf/staf2/person1.jpg",
+          "name": "André",
+          "fonction": "Gérant"
+        },
+        {
+          "photo": "/assets/staf/staf2/person2.jpg",
+          "name": "Jean",
+          "fonction": "Vendeur"
+        },
+        {
+          "photo": "/assets/staf/staf2/person3.jpg",
+          "name": "Carole",
+          "fonction": "Vendeuse"
         }
       ]
     },
@@ -216,6 +250,23 @@
           "date": "Mars 1990",
           "event": "Création de l'entreprise"
         }
+      ],
+      "staf": [
+        {
+          "photo": "/assets/staf/staf3/person1.jpg",
+          "name": "Laetitia",
+          "fonction": "Gérante"
+        },
+        {
+          "photo": "/assets/staf/staf3/person2.jpg",
+          "name": "Amélie",
+          "fonction": "Vendeuse"
+        },
+        {
+          "photo": "/assets/staf/staf3/person3.jpg",
+          "name": "Frank",
+          "fonction": "Vendeur"
+        }
       ]
     },
     {
@@ -288,6 +339,23 @@
         {
           "date": "Mars 1999",
           "event": "Création de l'entreprise"
+        }
+      ],
+      "staf": [
+        {
+          "photo": "/assets/staf/staf4/person1.jpg",
+          "name": "Tarik",
+          "fonction": "Gérant"
+        },
+        {
+          "photo": "/assets/staf/staf4/person2.jpg",
+          "name": "Lucie",
+          "fonction": "Agent immobilier"
+        },
+        {
+          "photo": "/assets/staf/staf4/person3.jpg",
+          "name": "Marc",
+          "fonction": "Agent immobilier"
         }
       ]
     },
@@ -362,6 +430,23 @@
           "date": "Mars 1995",
           "event": "Création de l'entreprise"
         }
+      ],
+      "staf": [
+        {
+          "photo": "/assets/staf/staf5/person1.jpg",
+          "name": "Louis",
+          "fonction": "Gérant"
+        },
+        {
+          "photo": "/assets/staf/staf5/person2.jpg",
+          "name": "Caroline",
+          "fonction": "Coiffeuse"
+        },
+        {
+          "photo": "/assets/staf/staf5/person3.jpg",
+          "name": "Natacha",
+          "fonction": "Coiffeuse, esthéticienne"
+        }
       ]
     },
     {
@@ -435,6 +520,23 @@
           "date": "Mars 2002",
           "event": "Création de l'entreprise"
         }
+      ],
+      "staf": [
+        {
+          "photo": "/assets/staf/staf6/person1.jpg",
+          "name": "Julie",
+          "fonction": "Gérante"
+        },
+        {
+          "photo": "/assets/staf/staf6/person2.jpg",
+          "name": "Patrick",
+          "fonction": "Vendeur"
+        },
+        {
+          "photo": "/assets/staf/staf6/person3.jpg",
+          "name": "Marie",
+          "fonction": "Technicienne SAV"
+        }
       ]
     },
     {
@@ -507,6 +609,23 @@
         {
           "date": "Mars 2005",
           "event": "Création de l'entreprise"
+        }
+      ],
+      "staf": [
+        {
+          "photo": "/assets/staf/staf7/person1.jpg",
+          "name": "Mickaël",
+          "fonction": "Gérant"
+        },
+        {
+          "photo": "/assets/staf/staf7/person2.jpg",
+          "name": "Sébastien",
+          "fonction": "Vendeur accordeur"
+        },
+        {
+          "photo": "/assets/staf/staf7/person3.jpg",
+          "name": "Charlotte",
+          "fonction": "Vendeuse"
         }
       ]
     }

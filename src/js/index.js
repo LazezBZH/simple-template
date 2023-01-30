@@ -27,22 +27,22 @@ function renderSiteModel(firm) {
   const sectionCard = document.createElement("header");
   const sectionThumbs = document.createElement("section");
   const sectionHistory = document.createElement("section");
+  const sectionStaf = document.createElement("section");
   const reloadTop = document.createElement("div");
   const reloadBottom = document.createElement("div");
-  // const home = document.createElement("div");
 
   sectionCard.classList.add("card");
   sectionThumbs.classList.add("thumbs");
   sectionHistory.classList.add("history");
+  sectionStaf.classList.add("staf");
   reloadTop.classList.add("reload", "reload-top");
   reloadBottom.classList.add("reload", "reload-bottom");
-  // home.classList.add("reload", "back");
 
   page.appendChild(reloadTop);
-  // page.appendChild(home);
   page.appendChild(sectionCard);
   page.appendChild(sectionThumbs);
   page.appendChild(sectionHistory);
+  page.appendChild(sectionStaf);
   page.appendChild(reloadBottom);
 
   reloadTop.innerHTML = `<button><a href="model.html">
@@ -53,9 +53,6 @@ function renderSiteModel(firm) {
   reloadBottom.innerHTML = `<button><a href="model.html">
    Montrer un autre exemple</a>
 </button>`;
-  //   home.innerHTML = `<button><a href="index.html">
-  //    Page d'accueil</a>
-  // </button>`;
 
   sectionCard.innerHTML = `<img class="firm-picture" alt="logo de ${firm.name}" src="${firm.logo}"/>
   <h1 class="firm-name">${firm.name}</h1>
@@ -76,6 +73,7 @@ function renderSiteModel(firm) {
                     `;
 
   let color = firm.color;
+
   sectionThumbs.style.backgroundColor = color;
   let thisProducts = firm.products;
 
@@ -100,6 +98,7 @@ function renderSiteModel(firm) {
     </figcaption>
 </figure>`;
   }
+
   sectionHistory.style.backgroundColor = color;
   sectionHistory.innerHTML = `<hr><h3>Notre histoire</h3> <div class="divHistory"></div>`;
 
@@ -114,6 +113,22 @@ function renderSiteModel(firm) {
                         <p class="step-title">${history.event}</p>
                           </div>`;
   }
-}
 
+  sectionStaf.style.backgroundColor = color;
+  sectionStaf.innerHTML = `<hr><h3>Notre équipe</h3> <div class="divStaf"></div>`;
+
+  const divStaf = document.querySelector(".divStaf");
+  let thisStaf = firm.staf;
+
+  for (let i = 0; i < thisStaf.length; i++) {
+    let staf = thisStaf[i];
+
+    divStaf.innerHTML += `<div class="person">
+                             <div class="person-txt"><p class="person-name">${staf.name}</p>
+                             <p class="person-fonction">${staf.fonction}</p></div>
+                        <div class="person-photo"><img   src="${staf.photo}"
+         alt="${staf.name}"></div>
+                          </div>`;
+  }
+}
 init();
