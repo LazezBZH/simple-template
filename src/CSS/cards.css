@@ -64,3 +64,8 @@
     padding: 20px 10px;
   }
 }
+@media screen and (max-width: 750px) {
+  .firm-picture {
+    margin-top: 1rem;
+  }
+}
