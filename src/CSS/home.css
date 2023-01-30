@@ -1,0 +1,159 @@
+body {
+  background-image: url(/assets/home.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left 50% top 5rem;
+  background-color: rgba(2, 5, 22, 1);
+  color: whitesmoke;
+  margin: auto;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(2, 5, 22, 1);
+  margin: 1.5rem 2rem;
+}
+.home-logo img {
+  width: 130px;
+  object-position: -10px -1px;
+}
+h1 {
+  max-width: 90%;
+  margin: 2rem;
+  font-size: 5rem;
+  text-align: center;
+  flex: 1;
+}
+h2 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.2rem;
+}
+.text,
+.choice {
+  width: 25%;
+  margin: 5%;
+}
+button a {
+  text-decoration: none;
+  color: rgba(2, 5, 22, 1);
+}
+button {
+  margin: 2rem;
+  font-size: 1.2rem;
+  background-color: whitesmoke;
+  padding: 0.8rem 0.5rem;
+  border-radius: 5px;
+}
+form {
+  margin: 2rem;
+  font-size: 1.2rem;
+  padding: 0.8rem 0.5rem;
+}
+select {
+  font-size: 1rem;
+  color: rgba(2, 5, 22, 1);
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+label {
+  margin-right: 0.5rem;
+}
+footer {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  background-color: rgba(245, 245, 245, 0.05);
+  padding: 1rem 0;
+}
+@media screen and (max-width: 938px) {
+  body {
+    background-position: left 50% top 15rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+
+  select {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-position: left 50% top 15rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-position: left 50% top 20rem;
+  }
+  main {
+    flex-direction: column;
+  }
+  .text,
+  .choice {
+    width: 85%;
+    margin: 5%;
+  }
+  .choice {
+    display: flex;
+    padding-top: 5rem;
+  }
+}
+@media screen and (max-width: 465px) {
+  body {
+    background-position: left 50% top 25rem;
+  }
+  .choice {
+    display: block;
+    padding-top: 5rem;
+  }
+  button,
+  form {
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  body {
+    background-position: left 50% top 20rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    width: 95%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  body {
+    background-image: none;
+  }
+  .choice {
+    padding-top: 0;
+  }
+}

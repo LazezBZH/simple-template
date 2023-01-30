@@ -1,10 +1,16 @@
-let number = Math.floor(Math.random() * 7);
-// let number = 6;
+let number = "";
+
+number = Math.floor(Math.random() * 7);
+
 function init() {
   fetch("/data.json")
     .then((response) => response.json())
     .then((data) => {
-      let firm = data[number];
+      let firm = "";
+      if (query("id") && query("id") != 0) {
+        firm = data.firms.filter((firm) => firm.id == query("id"))[0];
+      } else firm = data.firms[number];
+
       renderSiteModel(firm);
     });
 }
@@ -23,25 +29,33 @@ function renderSiteModel(firm) {
   const sectionHistory = document.createElement("section");
   const reloadTop = document.createElement("div");
   const reloadBottom = document.createElement("div");
+  // const home = document.createElement("div");
 
   sectionCard.classList.add("card");
   sectionThumbs.classList.add("thumbs");
   sectionHistory.classList.add("history");
   reloadTop.classList.add("reload", "reload-top");
   reloadBottom.classList.add("reload", "reload-bottom");
+  // home.classList.add("reload", "back");
 
   page.appendChild(reloadTop);
+  // page.appendChild(home);
   page.appendChild(sectionCard);
   page.appendChild(sectionThumbs);
   page.appendChild(sectionHistory);
   page.appendChild(reloadBottom);
 
-  reloadTop.innerHTML = `<button type="button" onClick="window.location.reload()">
-   Montrer un autre exemple
+  reloadTop.innerHTML = `<button><a href="model.html">
+   Montrer un autre exemple</a>
+</button><button id="home"><a href="index.html">
+   Page d'accueil</a>
 </button>`;
-  reloadBottom.innerHTML = `<button type="button" onClick="window.location.reload()">
-   Montrer un autre exemple
+  reloadBottom.innerHTML = `<button><a href="model.html">
+   Montrer un autre exemple</a>
 </button>`;
+  //   home.innerHTML = `<button><a href="index.html">
+  //    Page d'accueil</a>
+  // </button>`;
 
   sectionCard.innerHTML = `<img class="firm-picture" alt="logo de ${firm.name}" src="${firm.logo}"/>
   <h1 class="firm-name">${firm.name}</h1>

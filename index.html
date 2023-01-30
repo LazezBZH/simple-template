@@ -16,17 +16,40 @@
         <meta name="twitter:description" content="Modèle de site vitrine simple généré aléatoirement"/>
         <link rel="stylesheet" href="https://fontlibrary.org//face/roboto-1" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./src/CSS/base.css"/>
-        <link rel="stylesheet" href="./src/CSS/cards.css"/>
-        <link rel="stylesheet" href="./src/CSS/thumbnail.css"/>
-        <link rel="stylesheet" href="./src/CSS/history.css"/>
+        <link rel="stylesheet" href="./src/CSS/home.css"/>
+       
         <link rel="favicon" href="./assets/favicon.png"/>
     </head>
     <body>
-         
-        <div class="page" id="root">
-        </div>
+        <header> 
+            <div class="home-logo"><img src="./assets/home-logo.jpg" alt="triskell"></div> <h1>Création de sites web </h1></header>
+        <main>
+            <section class="text">
+                <h2>Modèles de sites vitrines</h2>
+                <p>Choissisez de générer aléatoirement un modèle ou sélectionnez-en un parmi les thématiques proposées.</p>
+                </section>
+            <section class="choice">
+                <button class="number" id="0" value="0"> <a href="/model.html">Je veux voir un modèle aléatoire de site vitrine</a> </button>
 
-        <script src="./src/js/index.js"></script>
+                <form name="form" >
+                    <label for="select">Je préfère choisir:</label>
+                    <select id="select" >
+                        <option >Mon choix</option>
+	                    <option  id="1">Restaurant</option>
+	                    <option  id="2">Épicerie</option>
+	                    <option  id="3" >Boutique de vêtements</option>
+                        <option id="4">Agence immobilière</option>
+                        <option id="5">Salon de coiffure</option>
+                        <option id="6">Magasin tech</option>
+                        <option id="7">Boutique de musique</option>
+                    </select>
+                </form>
+            </section>
+        </main>
+        <footer><p>Tout est modifiable, modulabe, réalisable, laissez vagabonder votre imagination!</p></footer>
+
+<script src="./src/js/home.js"></script>
+    
+        
     </body>
 </html>
