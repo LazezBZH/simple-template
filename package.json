@@ -1,0 +1,23 @@
+{
+  "name": "simple-template",
+  "version": "1.0.0",
+  "description": "templates de sites",
+  "main": "index.js",
+  "scripts": {
+    "sass": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazezBZH/simple-template.git"
+  },
+  "keywords": [
+    "template",
+    "sites"
+  ],
+  "author": "lazez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazezBZH/simple-template/issues"
+  },
+  "homepage": "https://github.com/LazezBZH/simple-template#readme"
+}

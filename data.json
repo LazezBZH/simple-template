@@ -19,42 +19,42 @@
           "tag": "Plats",
           "title": "Planche dégustation",
           "description": "à partager",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products1/product2.jpg",
           "tag": "Plats",
           "title": "Menu végétarien",
           "description": "cuisiné avec des produits locaux",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products1/product3.jpg",
           "tag": "Plats",
           "title": "Desserts",
           "description": "faits sur place avec des produits de saison",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products1/product4.jpg",
           "tag": "Décors",
           "title": "Une jolie table",
           "description": "pour que chaque repas soit une fête",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products1/product5.jpg",
           "tag": "Plats",
           "title": "Quiche La Bonne Table",
           "description": "notre spécialité, pour connaitre son secret venez la goûter",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products1/product6.jpg",
           "tag": "Décors",
           "title": "Vaisselle rafinée",
           "description": "pour un jour repas inoubliable",
-          "footer": ""
+          "details": ""
         }
       ],
       "story": [
@@ -108,42 +108,42 @@
           "tag": "Fruits",
           "title": "De saison",
           "description": "et bien frais, locaux au maximum",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products2/product2.jpg",
           "tag": "En vrac",
           "title": "Céréales et épices variées",
           "description": "quinoa, riz, pates...",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products2/product3.jpg",
           "tag": "Fruits",
           "title": "Un grand choix",
           "description": "et toujours la fraîcheur et la qualité",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products2/product4.jpg",
           "tag": "Légumes",
           "title": "De saison",
           "description": "été comme hiver faites le plein de vitamines",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products2/product5.jpg",
           "tag": "Légumes",
           "title": "Du choix et de la qualité",
           "description": "provenance de cultivateurs locaux",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products2/product6.jpg",
           "tag": "En vrac",
           "title": "Céréales et épices variées",
           "description": "astuce: amenez vos propres contenants",
-          "footer": ""
+          "details": ""
         }
       ],
 
@@ -198,42 +198,42 @@
           "tag": "Pantalons",
           "title": "Tendances",
           "description": "osez la couleur!",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products3/product2.jpg",
           "tag": "Robes",
           "title": "Un gand choix",
           "description": "pour chaque saison",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products3/product3.jpg",
           "tag": "Enfants",
           "title": "Mode fille",
           "description": "la plus belle pour aller danser",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products3/product4.jpg",
           "tag": "Enfants",
           "title": "Mode garçon",
           "description": "pour avoir la classe comme un grand",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products3/product5.jpg",
           "tag": "Pantalons",
           "title": "Jeans",
           "description": "de nombreuses marques en stock",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products3/product6.jpg",
           "tag": "Robes",
           "title": "Une saison, plusieurs styles",
           "description": "choisissez le vôtre!",
-          "footer": ""
+          "details": ""
         }
       ],
 
@@ -288,42 +288,42 @@
           "tag": "Maisons",
           "title": "Vente et location",
           "description": "Maisons anciennes",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products4/product2.jpg",
           "tag": "Maisons",
           "title": "Vente et location",
           "description": "Maisons neuves",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products4/product3.jpg",
           "tag": "Home staging",
           "title": "Conseils",
           "description": "pour un intérieur contemporain",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products4/product4.jpg",
           "tag": "Appartements",
           "title": "Vente et location",
           "description": "appartements anciens",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products4/product5.jpg",
           "tag": "Home staging",
           "title": "Conseils",
           "description": "pour un intérieur chaleureux",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products4/product6.jpg",
           "tag": "Appartements",
           "title": "Vente et location",
           "description": "appartements neufs, vente sur plans",
-          "footer": ""
+          "details": ""
         }
       ],
 
@@ -378,42 +378,42 @@
           "tag": "Femme",
           "title": "Coupe moderne",
           "description": "avec un conseil pro adapté",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products5/product2.jpg",
           "tag": "Femme",
           "title": "Brushing",
           "description": "tout en douceur",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products5/product3.jpg",
           "tag": "Homme",
           "title": "Coupe",
           "description": "selon vos envies",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products5/product4.jpg",
           "tag": "Jour J",
           "title": "Coiffure de cérémonie",
           "description": "déplacement à domicile possible",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products5/product5.jpg",
           "tag": "Enfants",
           "title": "Coupe enfants et bébé",
           "description": "avec beaucoup de patience",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products5/product6.jpg",
           "tag": "Homme",
           "title": "Barber shop",
           "description": "prestation de qualité",
-          "footer": ""
+          "details": ""
         }
       ],
 
@@ -468,42 +468,42 @@
           "tag": "PC",
           "title": "Vente et maintenance",
           "description": "fixes ou portables, windows, mac ou linux",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products6/product2.jpg",
           "tag": "PC",
           "title": "Accessoires",
           "description": "souris, claviers, web cams...",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products6/product3.jpg",
           "tag": "Téléphonie",
           "title": "Vente",
           "description": "Smartphones androïd ou IOs",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products6/product4.jpg",
           "tag": "Games",
           "title": "Jeux",
           "description": "toutes consoles",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products6/product5.jpg",
           "tag": "Téléphonie",
           "title": "Réparation",
           "description": "changement d'écran, de batterie, toute réparation ",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "/assets/products/products6/product6.jpg",
           "tag": "Games",
           "title": "Consoles",
           "description": "portables ou de salon",
-          "footer": ""
+          "details": ""
         }
       ],
 
@@ -558,42 +558,42 @@
           "tag": "Instruments",
           "title": "Pianos",
           "description": "conseils, vente et location",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "../../assets/products/products7/product2.jpg",
           "tag": "Supports",
           "title": "Vinyles",
           "description": "un grand choix, du vintage et du récent",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "../../assets/products/products7/product3.jpg",
           "tag": "Matériel",
           "title": "Enceintes",
           "description": "marques, qualité et petits prix",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "../../assets/products/products7/product4.jpg",
           "tag": "Instruments",
           "title": "Guitares",
           "description": "conseils, vente et location",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "../../assets/products/products7/product5.jpg",
           "tag": "Supports",
           "title": "CD",
           "description": "dès leur sortie trouvez les dans nos bacs",
-          "footer": ""
+          "details": ""
         },
         {
           "cover": "../../assets/products/products7/product6.jpg",
           "tag": "Matériel",
           "title": "Amplis",
           "description": "tout ce dont vous avez besoin pour jouer comme un pro",
-          "footer": ""
+          "details": ""
         }
       ],
 

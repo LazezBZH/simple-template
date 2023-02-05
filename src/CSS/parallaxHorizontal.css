@@ -1,0 +1,134 @@
+/* Inspired by this pen by Pieter Biesemans https://codepen.io/pieter-biesemans/pen/BQBWXX and My Mother Before Me project http://mymotherbeforeme.com/ */
+
+body {
+  font-family: cursive, sans-serif;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+.container {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.horizontal-scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  transform: rotate(-90deg) translate3d(0, -100vh, 0);
+  transform-origin: right top;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  height: 100vw;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  padding-bottom: 10rem;
+}
+.img-wrapper {
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  transition: 1s;
+}
+
+.img-wrapper:hover {
+  min-height: 65vh;
+  transform: rotate(90deg) translateZ(0.1px) scale(1.2) translateX(3vw)
+    translateY(-3vh);
+  z-index: 99;
+}
+
+.mer1 {
+  transform: rotate(90deg) translateZ(-0.2px) scale(1.1) translateX(0%)
+    translateY(-10vh);
+}
+.mer2 {
+  transform: rotate(90deg) translateZ(0.15px) scale(0.8) translateX(0%)
+    translateY(14vh);
+}
+.mer3 {
+  transform: rotate(90deg) translateZ(-0.15px) scale(1.1) translateX(-10vw)
+    translateY(0%);
+}
+.mer4 {
+  transform: rotate(90deg) translateZ(-0.2px) scale(1.1) translateX(-8vw)
+    translateY(-15vh);
+}
+.montagne1 {
+  transform: rotate(90deg) translateZ(-0.25px) scale(1.15) translateX(0%)
+    translateY(8vh);
+}
+.montagne2 {
+  transform: rotate(90deg) translateZ(0.22px) scale(0.8) translateX(10vw)
+    translateY(-15vh);
+}
+.montagne3 {
+  transform: rotate(90deg) translateZ(0.05px) scale(0.85) translateX(-10vw)
+    translateY(10vh);
+}
+.montagne4 {
+  transform: rotate(90deg) translateZ(-0.3px) scale(1.3) translateX(-2vw)
+    translateY(-12vh);
+}
+.ville1 {
+  transform: rotate(90deg) translateZ(-0.2px) scale(1.1) translateX(25vh)
+    translateY(-20vh);
+}
+.ville2 {
+  transform: rotate(90deg) translateZ(-0.1px) scale(1.1) translateX(15vw)
+    translateY(8vh);
+}
+.ville3 {
+  transform: rotate(90deg) translateZ(-0.1px) scale(1.1) translateX(18vw)
+    translateY(-10vh);
+}
+.ville4 {
+  transform: rotate(90deg) translateZ(-0.2px) scale(1.1) translateX(23vw)
+    translateY(15vh);
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: bolder;
+  margin: 0;
+  width: 100vw;
+}
+
+.img-wrapper span {
+  overflow: hidden;
+  display: block;
+  padding: 1vh;
+  background: #52514e;
+  box-shadow: 0 10px 50px #5f2f1182;
+}
+img {
+  width: 45vh;
+  height: 35vh;
+  object-fit: cover;
+  transition: 0.5s;
+  vertical-align: top;
+  filter: saturate(40%) sepia(30%) hue-rotate(5deg);
+}

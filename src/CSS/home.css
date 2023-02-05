@@ -1,4 +1,6 @@
 body {
+  width: 100vw;
+  height: 100%;
   background-image: url(/assets/home.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
@@ -7,17 +9,40 @@ body {
   color: whitesmoke;
   margin: auto;
 }
+.container {
+  height: 100%;
+  position: relative;
+}
 header {
   width: 100%;
   display: flex;
   justify-content: space-around;
   margin: auto;
 }
+
+.main {
+  min-height: 100%;
+
+  padding-bottom: 270px;
+  /* background-color: red; */
+}
 main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
+  gap: 25%;
+  flex-wrap: wrap;
 }
+footer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  background-color: rgba(245, 245, 245, 0.05);
+  padding: 1rem 0;
+}
+
 .home-logo {
   width: 96px;
   height: 96px;
@@ -58,6 +83,7 @@ button {
   background-color: whitesmoke;
   padding: 0.8rem 0.5rem;
   border-radius: 5px;
+  /* position: relative; */
 }
 form {
   margin: 2rem;
@@ -76,14 +102,21 @@ select {
 label {
   margin-right: 0.5rem;
 }
-footer {
-  width: 100%;
-  margin: 0;
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  background-color: rgba(245, 245, 245, 0.05);
-  padding: 1rem 0;
+
+.para {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+
+.parabtn {
+  display: flex;
+  flex-direction: column;
+}
+.parabtn button {
+  margin: 0 0 0.2rem 1rem;
+  text-align: left;
 }
 @media screen and (max-width: 938px) {
   body {
@@ -123,6 +156,10 @@ footer {
   .choice {
     display: flex;
     padding-top: 5rem;
+    margin-bottom: 0;
+  }
+  .para {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 465px) {

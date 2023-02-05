@@ -90,15 +90,18 @@ function renderSiteModel(firm) {
                            <span class="tag" id="tag">${product.tag}</span>
     <h4 class="thumbnail-title" > ${product.title}</h4>
                             <p class="thumbnail-description" >${product.description}</p>
-                            <div class="thumbnail-footer">
-                                <a href="${product.footer}" target="_blank" >En savoir plus</a>
+                            <div class="thumbnail-details">
+                                <a href="${product.details}" target="_blank" >En savoir plus</a>
                             </div>
                         </div>
     
     </figcaption>
-</figure>`;
+</figure>
+`;
   }
-
+  {
+    /* <dialog open class="modal">test</> */
+  }
   sectionHistory.style.backgroundColor = color;
   sectionHistory.innerHTML = `<hr><h3>Notre histoire</h3> <div class="divHistory"></div>`;
 
