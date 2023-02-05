@@ -13,15 +13,14 @@
 }
 .divThumbs figure {
   border-radius: 11px;
-  max-width: 350px;
-  width: 35%;
+  width: 22rem;
   height: 16rem;
   box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
   text-align: left;
   vertical-align: top;
 }
 .divThumbs figure img {
-  width: 100%;
+  width: 22rem;
   height: 8rem;
   object-fit: cover;
   border-radius: 11px 11px 0 0;
