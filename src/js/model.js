@@ -12,6 +12,7 @@ function init() {
       } else firm = data.firms[number];
 
       renderSiteModel(firm);
+      // renderProductModel(firm);
     });
 }
 
@@ -91,7 +92,7 @@ function renderSiteModel(firm) {
     <h4 class="thumbnail-title" > ${product.title}</h4>
                             <p class="thumbnail-description" >${product.description}</p>
                             <div class="thumbnail-details">
-                                <a href="${product.details}" target="_blank" >En savoir plus</a>
+                                <a href="product.html?id=${firm.id}&productId=${product.id}" >En savoir plus</a>
                             </div>
                         </div>
     
@@ -99,9 +100,7 @@ function renderSiteModel(firm) {
 </figure>
 `;
   }
-  {
-    /* <dialog open class="modal">test</> */
-  }
+
   sectionHistory.style.backgroundColor = color;
   sectionHistory.innerHTML = `<hr><h3>Notre histoire</h3> <div class="divHistory"></div>`;
 
@@ -134,4 +133,34 @@ function renderSiteModel(firm) {
                           </div>`;
   }
 }
+
+// function renderProductModel() {
+//   const productBody = document.querySelector("#productBody");
+//   const productPage = document.querySelector("#productRoot");
+
+//   // productBody.style.background = "url(" + firm.background + ") ";
+//   productBody.style.backgroundColor = "red";
+//   productBody.style.backgroundRepeat = "no-repeat";
+//   productBody.style.backgroundSize = "cover";
+//   productBody.style.backgroundPosition = "center center";
+
+//   const sectionProductImage = document.createElement("section");
+//   const sectionProductText = document.createElement("section");
+
+//   sectionProductImage.classList.add("productImg");
+//   sectionProductText.classList.add("productTxt");
+
+//   productPage.appendChild(sectionProductImage);
+//   productPage.appendChild(sectionProductText);
+
+//   sectionProductImage.innerHTML = `<button><a href="model.html">
+//    Montrer un autre exemple</a>
+// </button><button id="home"><a href="index.html">
+//    Page d'accueil</a>
+// </button>`;
+//   sectionProductText.innerHTML = `<button><a href="model.html">
+//    Montrer un autre exemple</a>
+// </button>`;
+// }
+
 init();
