@@ -2,8 +2,8 @@
   "firms": [
     {
       "id": "1",
-      "logo": "/assets/logo/logo1.png",
-      "background": "/assets/background/background1.jpg",
+      "logo": "/model/assets/logo/logo1.png",
+      "background": "/model/assets/background/background1.jpg",
       "color": "#71817a",
       "name": "La bonne Table",
       "adress": "31, boulevard de Bouvier",
@@ -16,7 +16,7 @@
       "products": [
         {
           "id": 1,
-          "cover": "/assets/products/products1/product1.jpg",
+          "cover": "/model/assets/products/products1/product1.jpg",
           "tag": "Plats",
           "title": "Planche dégustation",
           "description": "à partager",
@@ -24,7 +24,7 @@
         },
         {
           "id": 2,
-          "cover": "/assets/products/products1/product2.jpg",
+          "cover": "/model/assets/products/products1/product2.jpg",
           "tag": "Plats",
           "title": "Menu végétarien",
           "description": "cuisiné avec des produits locaux",
@@ -32,7 +32,7 @@
         },
         {
           "id": 3,
-          "cover": "/assets/products/products1/product3.jpg",
+          "cover": "/model/assets/products/products1/product3.jpg",
           "tag": "Plats",
           "title": "Desserts",
           "description": "faits sur place avec des produits de saison",
@@ -40,7 +40,7 @@
         },
         {
           "id": 4,
-          "cover": "/assets/products/products1/product4.jpg",
+          "cover": "/model/assets/products/products1/product4.jpg",
           "tag": "Décors",
           "title": "Une jolie table",
           "description": "pour que chaque repas soit une fête",
@@ -48,7 +48,7 @@
         },
         {
           "id": 5,
-          "cover": "/assets/products/products1/product5.jpg",
+          "cover": "/model/assets/products/products1/product5.jpg",
           "tag": "Plats",
           "title": "Quiche La Bonne Table",
           "description": "notre spécialité, pour connaitre son secret venez la goûter",
@@ -56,7 +56,7 @@
         },
         {
           "id": 6,
-          "cover": "/assets/products/products1/product6.jpg",
+          "cover": "/model/assets/products/products1/product6.jpg",
           "tag": "Décors",
           "title": "Vaisselle rafinée",
           "description": "pour un jour repas inoubliable",
@@ -79,17 +79,17 @@
       ],
       "staf": [
         {
-          "photo": "/assets/staf/staf1/person1.jpg",
+          "photo": "/model/assets/staf/staf1/person1.jpg",
           "name": "Nathalie",
           "fonction": "Gérante"
         },
         {
-          "photo": "/assets/staf/staf1/person2.jpg",
+          "photo": "/model/assets/staf/staf1/person2.jpg",
           "name": "Charles",
           "fonction": "Cuisinier"
         },
         {
-          "photo": "/assets/staf/staf1/person3.jpg",
+          "photo": "/model/assets/staf/staf1/person3.jpg",
           "name": "Xavier",
           "fonction": "Serveur"
         }
@@ -97,8 +97,8 @@
     },
     {
       "id": "2",
-      "logo": "/assets/logo/logo1.png",
-      "background": "/assets/background/background2.jpg",
+      "logo": "/model/assets/logo/logo1.png",
+      "background": "/model/assets/background/background2.jpg",
       "color": "#759043",
       "name": "Épicerie du coin",
       "adress": "557, rue Thibaut Marin",
@@ -111,7 +111,7 @@
       "products": [
         {
           "id": 1,
-          "cover": "/assets/products/products2/product1.jpg",
+          "cover": "/model/assets/products/products2/product1.jpg",
           "tag": "Fruits",
           "title": "De saison",
           "description": "et bien frais, locaux au maximum",
@@ -119,7 +119,7 @@
         },
         {
           "id": 2,
-          "cover": "/assets/products/products2/product2.jpg",
+          "cover": "/model/assets/products/products2/product2.jpg",
           "tag": "En vrac",
           "title": "Céréales et épices variées",
           "description": "quinoa, riz, pates...",
@@ -127,7 +127,7 @@
         },
         {
           "id": 3,
-          "cover": "/assets/products/products2/product3.jpg",
+          "cover": "/model/assets/products/products2/product3.jpg",
           "tag": "Fruits",
           "title": "Un grand choix",
           "description": "et toujours la fraîcheur et la qualité",
@@ -135,7 +135,7 @@
         },
         {
           "id": 4,
-          "cover": "/assets/products/products2/product4.jpg",
+          "cover": "/model/assets/products/products2/product4.jpg",
           "tag": "Légumes",
           "title": "De saison",
           "description": "été comme hiver faites le plein de vitamines",
@@ -143,7 +143,7 @@
         },
         {
           "id": 5,
-          "cover": "/assets/products/products2/product5.jpg",
+          "cover": "/model/assets/products/products2/product5.jpg",
           "tag": "Légumes",
           "title": "Du choix et de la qualité",
           "description": "provenance de cultivateurs locaux",
@@ -151,7 +151,7 @@
         },
         {
           "id": 6,
-          "cover": "/assets/products/products2/product6.jpg",
+          "cover": "/model/assets/products/products2/product6.jpg",
           "tag": "En vrac",
           "title": "Céréales et épices variées",
           "description": "astuce: amenez vos propres contenants",
@@ -175,17 +175,17 @@
       ],
       "staf": [
         {
-          "photo": "/assets/staf/staf2/person1.jpg",
+          "photo": "/model/assets/staf/staf2/person1.jpg",
           "name": "André",
           "fonction": "Gérant"
         },
         {
-          "photo": "/assets/staf/staf2/person2.jpg",
+          "photo": "/model/assets/staf/staf2/person2.jpg",
           "name": "Jean",
           "fonction": "Vendeur"
         },
         {
-          "photo": "/assets/staf/staf2/person3.jpg",
+          "photo": "/model/assets/staf/staf2/person3.jpg",
           "name": "Carole",
           "fonction": "Vendeuse"
         }
@@ -193,8 +193,8 @@
     },
     {
       "id": "3",
-      "logo": "/assets/logo/logo1.png",
-      "background": "/assets/background/background3.jpg",
+      "logo": "/model/assets/logo/logo1.png",
+      "background": "/model/assets/background/background3.jpg",
       "color": "#26AFB5",
       "name": "Beaux habits",
       "adress": "5, avenue Gabrielle Roussel",
@@ -207,7 +207,7 @@
       "products": [
         {
           "id": 1,
-          "cover": "/assets/products/products3/product1.jpg",
+          "cover": "/model/assets/products/products3/product1.jpg",
           "tag": "Pantalons",
           "title": "Tendances",
           "description": "osez la couleur!",
@@ -215,7 +215,7 @@
         },
         {
           "id": 2,
-          "cover": "/assets/products/products3/product2.jpg",
+          "cover": "/model/assets/products/products3/product2.jpg",
           "tag": "Robes",
           "title": "Un gand choix",
           "description": "pour chaque saison",
@@ -223,7 +223,7 @@
         },
         {
           "id": 3,
-          "cover": "/assets/products/products3/product3.jpg",
+          "cover": "/model/assets/products/products3/product3.jpg",
           "tag": "Enfants",
           "title": "Mode fille",
           "description": "la plus belle pour aller danser",
@@ -231,7 +231,7 @@
         },
         {
           "id": 4,
-          "cover": "/assets/products/products3/product4.jpg",
+          "cover": "/model/assets/products/products3/product4.jpg",
           "tag": "Enfants",
           "title": "Mode garçon",
           "description": "pour avoir la classe comme un grand",
@@ -239,7 +239,7 @@
         },
         {
           "id": 5,
-          "cover": "/assets/products/products3/product5.jpg",
+          "cover": "/model/assets/products/products3/product5.jpg",
           "tag": "Pantalons",
           "title": "Jeans",
           "description": "de nombreuses marques en stock",
@@ -247,7 +247,7 @@
         },
         {
           "id": 6,
-          "cover": "/assets/products/products3/product6.jpg",
+          "cover": "/model/assets/products/products3/product6.jpg",
           "tag": "Robes",
           "title": "Une saison, plusieurs styles",
           "description": "choisissez le vôtre!",
@@ -271,17 +271,17 @@
       ],
       "staf": [
         {
-          "photo": "/assets/staf/staf3/person1.jpg",
+          "photo": "/model/assets/staf/staf3/person1.jpg",
           "name": "Laetitia",
           "fonction": "Gérante"
         },
         {
-          "photo": "/assets/staf/staf3/person2.jpg",
+          "photo": "/model/assets/staf/staf3/person2.jpg",
           "name": "Amélie",
           "fonction": "Vendeuse"
         },
         {
-          "photo": "/assets/staf/staf3/person3.jpg",
+          "photo": "/model/assets/staf/staf3/person3.jpg",
           "name": "Frank",
           "fonction": "Vendeur"
         }
@@ -289,8 +289,8 @@
     },
     {
       "id": "4",
-      "logo": "/assets/logo/logo1.png",
-      "background": "/assets/background/background4.jpg",
+      "logo": "/model/assets/logo/logo1.png",
+      "background": "/model/assets/background/background4.jpg",
       "color": "#595a52",
       "name": "Sous les Toits",
       "adress": "47, impasse Paul Camus",
@@ -303,7 +303,7 @@
       "products": [
         {
           "id": 1,
-          "cover": "/assets/products/products4/product1.jpg",
+          "cover": "/model/assets/products/products4/product1.jpg",
           "tag": "Maisons",
           "title": "Vente et location",
           "description": "Maisons anciennes",
@@ -311,7 +311,7 @@
         },
         {
           "id": 2,
-          "cover": "/assets/products/products4/product2.jpg",
+          "cover": "/model/assets/products/products4/product2.jpg",
           "tag": "Maisons",
           "title": "Vente et location",
           "description": "Maisons neuves",
@@ -319,7 +319,7 @@
         },
         {
           "id": 3,
-          "cover": "/assets/products/products4/product3.jpg",
+          "cover": "/model/assets/products/products4/product3.jpg",
           "tag": "Home staging",
           "title": "Conseils",
           "description": "pour un intérieur contemporain",
@@ -327,7 +327,7 @@
         },
         {
           "id": 4,
-          "cover": "/assets/products/products4/product4.jpg",
+          "cover": "/model/assets/products/products4/product4.jpg",
           "tag": "Appartements",
           "title": "Vente et location",
           "description": "appartements anciens",
@@ -335,7 +335,7 @@
         },
         {
           "id": 5,
-          "cover": "/assets/products/products4/product5.jpg",
+          "cover": "/model/assets/products/products4/product5.jpg",
           "tag": "Home staging",
           "title": "Conseils",
           "description": "pour un intérieur chaleureux",
@@ -343,7 +343,7 @@
         },
         {
           "id": 6,
-          "cover": "/assets/products/products4/product6.jpg",
+          "cover": "/model/assets/products/products4/product6.jpg",
           "tag": "Appartements",
           "title": "Vente et location",
           "description": "appartements neufs, vente sur plans",
@@ -367,17 +367,17 @@
       ],
       "staf": [
         {
-          "photo": "/assets/staf/staf4/person1.jpg",
+          "photo": "/model/assets/staf/staf4/person1.jpg",
           "name": "Tarik",
           "fonction": "Gérant"
         },
         {
-          "photo": "/assets/staf/staf4/person2.jpg",
+          "photo": "/model/assets/staf/staf4/person2.jpg",
           "name": "Lucie",
           "fonction": "Agent immobilier"
         },
         {
-          "photo": "/assets/staf/staf4/person3.jpg",
+          "photo": "/model/assets/staf/staf4/person3.jpg",
           "name": "Marc",
           "fonction": "Agent immobilier"
         }
@@ -385,8 +385,8 @@
     },
     {
       "id": "5",
-      "logo": "/assets/logo/logo1.png",
-      "background": "/assets/background/background5.jpg",
+      "logo": "/model/assets/logo/logo1.png",
+      "background": "/model/assets/background/background5.jpg",
       "color": "#BA4D4A",
       "name": "Coup'Tifs",
       "adress": "72, avenue de Jacquet",
@@ -399,7 +399,7 @@
       "products": [
         {
           "id": 1,
-          "cover": "/assets/products/products5/product1.jpg",
+          "cover": "/model/assets/products/products5/product1.jpg",
           "tag": "Femme",
           "title": "Coupe moderne",
           "description": "avec un conseil pro adapté",
@@ -407,7 +407,7 @@
         },
         {
           "id": 2,
-          "cover": "/assets/products/products5/product2.jpg",
+          "cover": "/model/assets/products/products5/product2.jpg",
           "tag": "Femme",
           "title": "Brushing",
           "description": "tout en douceur",
@@ -415,7 +415,7 @@
         },
         {
           "id": 3,
-          "cover": "/assets/products/products5/product3.jpg",
+          "cover": "/model/assets/products/products5/product3.jpg",
           "tag": "Homme",
           "title": "Coupe",
           "description": "selon vos envies",
@@ -423,7 +423,7 @@
         },
         {
           "id": 4,
-          "cover": "/assets/products/products5/product4.jpg",
+          "cover": "/model/assets/products/products5/product4.jpg",
           "tag": "Jour J",
           "title": "Coiffure de cérémonie",
           "description": "déplacement à domicile possible",
@@ -431,7 +431,7 @@
         },
         {
           "id": 5,
-          "cover": "/assets/products/products5/product5.jpg",
+          "cover": "/model/assets/products/products5/product5.jpg",
           "tag": "Enfants",
           "title": "Coupe enfants et bébé",
           "description": "avec beaucoup de patience",
@@ -439,7 +439,7 @@
         },
         {
           "id": 6,
-          "cover": "/assets/products/products5/product6.jpg",
+          "cover": "/model/assets/products/products5/product6.jpg",
           "tag": "Homme",
           "title": "Barber shop",
           "description": "prestation de qualité",
@@ -463,17 +463,17 @@
       ],
       "staf": [
         {
-          "photo": "/assets/staf/staf5/person1.jpg",
+          "photo": "/model/assets/staf/staf5/person1.jpg",
           "name": "Louis",
           "fonction": "Gérant"
         },
         {
-          "photo": "/assets/staf/staf5/person2.jpg",
+          "photo": "/model/assets/staf/staf5/person2.jpg",
           "name": "Caroline",
           "fonction": "Coiffeuse"
         },
         {
-          "photo": "/assets/staf/staf5/person3.jpg",
+          "photo": "/model/assets/staf/staf5/person3.jpg",
           "name": "Natacha",
           "fonction": "Coiffeuse, esthéticienne"
         }
@@ -481,8 +481,8 @@
     },
     {
       "id": "6",
-      "logo": "/assets/logo/logo1.png",
-      "background": "/assets/background/background6.jpg",
+      "logo": "/model/assets/logo/logo1.png",
+      "background": "/model/assets/background/background6.jpg",
       "color": "#aaa9aa",
       "name": "ToutEnTech",
       "adress": "342, rue Hernandez",
@@ -495,7 +495,7 @@
       "products": [
         {
           "id": 1,
-          "cover": "/assets/products/products6/product1.jpg",
+          "cover": "/model/assets/products/products6/product1.jpg",
           "tag": "PC",
           "title": "Vente et maintenance",
           "description": "fixes ou portables, windows, mac ou linux",
@@ -503,7 +503,7 @@
         },
         {
           "id": 2,
-          "cover": "/assets/products/products6/product2.jpg",
+          "cover": "/model/assets/products/products6/product2.jpg",
           "tag": "PC",
           "title": "Accessoires",
           "description": "souris, claviers, web cams...",
@@ -511,7 +511,7 @@
         },
         {
           "id": 3,
-          "cover": "/assets/products/products6/product3.jpg",
+          "cover": "/model/assets/products/products6/product3.jpg",
           "tag": "Téléphonie",
           "title": "Vente",
           "description": "Smartphones androïd ou IOs",
@@ -519,7 +519,7 @@
         },
         {
           "id": 4,
-          "cover": "/assets/products/products6/product4.jpg",
+          "cover": "/model/assets/products/products6/product4.jpg",
           "tag": "Games",
           "title": "Jeux",
           "description": "toutes consoles",
@@ -527,7 +527,7 @@
         },
         {
           "id": 5,
-          "cover": "/assets/products/products6/product5.jpg",
+          "cover": "/model/assets/products/products6/product5.jpg",
           "tag": "Téléphonie",
           "title": "Réparation",
           "description": "changement d'écran, de batterie, toute réparation ",
@@ -535,7 +535,7 @@
         },
         {
           "id": 6,
-          "cover": "/assets/products/products6/product6.jpg",
+          "cover": "/model/assets/products/products6/product6.jpg",
           "tag": "Games",
           "title": "Consoles",
           "description": "portables ou de salon",
@@ -559,17 +559,17 @@
       ],
       "staf": [
         {
-          "photo": "/assets/staf/staf6/person1.jpg",
+          "photo": "/model/assets/staf/staf6/person1.jpg",
           "name": "Julie",
           "fonction": "Gérante"
         },
         {
-          "photo": "/assets/staf/staf6/person2.jpg",
+          "photo": "/model/assets/staf/staf6/person2.jpg",
           "name": "Patrick",
           "fonction": "Vendeur"
         },
         {
-          "photo": "/assets/staf/staf6/person3.jpg",
+          "photo": "/model/assets/staf/staf6/person3.jpg",
           "name": "Marie",
           "fonction": "Technicienne SAV"
         }
@@ -577,8 +577,8 @@
     },
     {
       "id": "7",
-      "logo": "/assets/logo/logo1.png",
-      "background": "../../assets/background/background7.jpg",
+      "logo": "/model/assets/logo/logo1.png",
+      "background": "/model/assets/background/background7.jpg",
       "color": "#513834",
       "name": "Les bonnes notes",
       "adress": "641, rue de Becker",
@@ -591,7 +591,7 @@
       "products": [
         {
           "id": 1,
-          "cover": "../../assets/products/products7/product1.jpg",
+          "cover": "/model/assets/products/products7/product1.jpg",
           "tag": "Instruments",
           "title": "Pianos",
           "description": "conseils, vente et location",
@@ -599,7 +599,7 @@
         },
         {
           "id": 2,
-          "cover": "../../assets/products/products7/product2.jpg",
+          "cover": "/model/assets/products/products7/product2.jpg",
           "tag": "Supports",
           "title": "Vinyles",
           "description": "un grand choix, du vintage et du récent",
@@ -607,7 +607,7 @@
         },
         {
           "id": 3,
-          "cover": "../../assets/products/products7/product3.jpg",
+          "cover": "/model/assets/products/products7/product3.jpg",
           "tag": "Matériel",
           "title": "Enceintes",
           "description": "marques, qualité et petits prix",
@@ -615,7 +615,7 @@
         },
         {
           "id": 4,
-          "cover": "../../assets/products/products7/product4.jpg",
+          "cover": "/model/assets/products/products7/product4.jpg",
           "tag": "Instruments",
           "title": "Guitares",
           "description": "conseils, vente et location",
@@ -623,7 +623,7 @@
         },
         {
           "id": 5,
-          "cover": "../../assets/products/products7/product5.jpg",
+          "cover": "/model/assets/products/products7/product5.jpg",
           "tag": "Supports",
           "title": "CD",
           "description": "dès leur sortie trouvez les dans nos bacs",
@@ -631,7 +631,7 @@
         },
         {
           "id": 6,
-          "cover": "../../assets/products/products7/product6.jpg",
+          "cover": "/model/assets/products/products7/product6.jpg",
           "tag": "Matériel",
           "title": "Amplis",
           "description": "tout ce dont vous avez besoin pour jouer comme un pro",
@@ -655,17 +655,17 @@
       ],
       "staf": [
         {
-          "photo": "/assets/staf/staf7/person1.jpg",
+          "photo": "/model/assets/staf/staf7/person1.jpg",
           "name": "Mickaël",
           "fonction": "Gérant"
         },
         {
-          "photo": "/assets/staf/staf7/person2.jpg",
+          "photo": "/model/assets/staf/staf7/person2.jpg",
           "name": "Sébastien",
           "fonction": "Vendeur accordeur"
         },
         {
-          "photo": "/assets/staf/staf7/person3.jpg",
+          "photo": "/model/assets/staf/staf7/person3.jpg",
           "name": "Charlotte",
           "fonction": "Vendeuse"
         }

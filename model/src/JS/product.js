@@ -1,7 +1,7 @@
 let number = "";
 
 function init() {
-  fetch("/data.json")
+  fetch("/model.json")
     .then((response) => response.json())
     .then((data) => {
       let firm = "";
@@ -41,7 +41,7 @@ function renderProductModel(product, firm) {
          alt="${product.title}">
 `;
   sectionProductText.innerHTML = `<h1>${product.title}
-</h1> <button class="back"><a href="/model.html?id=${firm.id}">X</a></button>
+</h1> <button class="back"><a href="/model/model.html?id=${firm.id}">X</a></button>
 <h2>${product.description}</h2>
 <p>${product.details}</p>`;
 }

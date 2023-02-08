@@ -3,7 +3,7 @@ let number = "";
 number = Math.floor(Math.random() * 7);
 
 function init() {
-  fetch("/data.json")
+  fetch("/model.json")
     .then((response) => response.json())
     .then((data) => {
       let firm = "";
@@ -12,7 +12,6 @@ function init() {
       } else firm = data.firms[number];
 
       renderSiteModel(firm);
-      // renderProductModel(firm);
     });
 }
 
@@ -48,7 +47,7 @@ function renderSiteModel(firm) {
 
   reloadTop.innerHTML = `<button><a href="model.html">
    Montrer un autre exemple</a>
-</button><button id="home"><a href="index.html">
+</button><button id="home"><a href="/index.html">
    Page d'accueil</a>
 </button>`;
   reloadBottom.innerHTML = `<button><a href="model.html">
@@ -133,34 +132,5 @@ function renderSiteModel(firm) {
                           </div>`;
   }
 }
-
-// function renderProductModel() {
-//   const productBody = document.querySelector("#productBody");
-//   const productPage = document.querySelector("#productRoot");
-
-//   // productBody.style.background = "url(" + firm.background + ") ";
-//   productBody.style.backgroundColor = "red";
-//   productBody.style.backgroundRepeat = "no-repeat";
-//   productBody.style.backgroundSize = "cover";
-//   productBody.style.backgroundPosition = "center center";
-
-//   const sectionProductImage = document.createElement("section");
-//   const sectionProductText = document.createElement("section");
-
-//   sectionProductImage.classList.add("productImg");
-//   sectionProductText.classList.add("productTxt");
-
-//   productPage.appendChild(sectionProductImage);
-//   productPage.appendChild(sectionProductText);
-
-//   sectionProductImage.innerHTML = `<button><a href="model.html">
-//    Montrer un autre exemple</a>
-// </button><button id="home"><a href="index.html">
-//    Page d'accueil</a>
-// </button>`;
-//   sectionProductText.innerHTML = `<button><a href="model.html">
-//    Montrer un autre exemple</a>
-// </button>`;
-// }
 
 init();

@@ -4,13 +4,13 @@
 }
 
 .section-1 {
-  background-image: url(../../assets/parallax/parallax3pages/parallax1.jpg);
+  background-image: url(../../assets/parallax1.jpg);
 }
 .section-2 {
-  background-image: url(../../assets/parallax/parallax3pages/parallax2.jpg);
+  background-image: url(../../assets/parallax2.jpg);
 }
 .section-3 {
-  background-image: url(../../assets/parallax/parallax3pages/parallax3.jpg);
+  background-image: url(../../assets/parallax3.jpg);
 }
 header {
   width: 100vw;
