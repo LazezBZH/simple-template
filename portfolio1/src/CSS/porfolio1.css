@@ -340,8 +340,8 @@ figcaption {
 }
 .burger-icon {
   position: absolute;
-  right: 50px;
-  top: 25px;
+  right: 2vw;
+  top: 1vw;
 }
 .burger-icon span {
   display: block;
@@ -482,6 +482,13 @@ figcaption {
     font-size: 1rem;
     position: relative;
     top: 1.5rem;
+  }
+  .reveal img {
+    margin-top: 5rem;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    opacity: 0;
   }
 }
 @media screen and (max-width: 450px) {

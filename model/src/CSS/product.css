@@ -52,4 +52,7 @@ h1 {
   .productTxt {
     width: 95%;
   }
+  #productRoot {
+    width: 70%;
+  }
 }
