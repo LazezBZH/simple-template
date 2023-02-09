@@ -104,6 +104,6 @@ h3 {
 }
 @media screen and (max-width: 768px) {
   body {
-    height: 120vh;
+    height: 150vh;
   }
 }
