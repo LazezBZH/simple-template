@@ -109,6 +109,30 @@ const toggleLinks6 = function (entries) {
     }
   });
 };
+const toggleLinks7 = function (entries) {
+  const link7 = document.querySelector("#link-7");
+
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio > ratio) {
+      links.forEach((link) => {
+        link.classList.remove("activeL");
+      });
+      link7.classList.add("activeL");
+    }
+  });
+};
+const toggleLinks8 = function (entries) {
+  const link8 = document.querySelector("#link-8");
+
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio > ratio) {
+      links.forEach((link) => {
+        link.classList.remove("activeL");
+      });
+      link8.classList.add("activeL");
+    }
+  });
+};
 
 const observer1 = new IntersectionObserver(toggleLinks1, options);
 const observer2 = new IntersectionObserver(toggleLinks2, options);
@@ -116,6 +140,8 @@ const observer3 = new IntersectionObserver(toggleLinks3, options);
 const observer4 = new IntersectionObserver(toggleLinks4, options);
 const observer5 = new IntersectionObserver(toggleLinks5, options);
 const observer6 = new IntersectionObserver(toggleLinks6, options);
+const observer7 = new IntersectionObserver(toggleLinks7, options);
+const observer8 = new IntersectionObserver(toggleLinks8, options);
 
 let target1 = document.querySelector("#home");
 observer1.observe(target1);
@@ -129,3 +155,7 @@ let target5 = document.querySelector("#panel-4");
 observer5.observe(target5);
 let target6 = document.querySelector("#panel-5");
 observer6.observe(target6);
+let target7 = document.querySelector("#panel-6");
+observer7.observe(target7);
+let target8 = document.querySelector("#contact");
+observer8.observe(target8);

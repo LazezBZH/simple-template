@@ -1,3 +1,9 @@
+:root {
+  --primaire: rgb(70, 53, 53);
+  --secondaire: wheat;
+  --tertiaire: rgb(246, 195, 99);
+}
+
 html,
 body {
   margin: 0;
@@ -19,29 +25,32 @@ h2 {
   z-index: 9999;
   align-items: center;
   width: 100%;
+  background-color: var(--primaire);
 }
+
 h1 {
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
+  color: var(--secondaire);
+  font-size: 4rem;
+  text-align: left;
+  margin: 2rem 1rem 3rem 1rem;
+  font-family: cursive;
 }
 a {
-  color: white;
-  padding: 1rem 2rem;
+  padding: 0.5rem;
   text-decoration: none;
   cursor: pointer;
 }
-nav {
+.nav {
   display: flex;
-  flex-wrap: wrap;
+
   align-items: center;
 }
 
 #panels #panels-container {
-  width: 600%;
+  width: 900%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   padding: 0;
   overflow: hidden;
@@ -53,26 +62,33 @@ nav {
   height: 100vh;
   overflow: hidden;
   display: flex;
-  color: #333;
   text-align: left;
 }
 
 .anchor-nav a,
 .nav-panel a {
   text-transform: uppercase;
-  margin-right: 2rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+}
+.nav-panel {
+  background-color: var(--secondaire);
+  text-align: center;
+  border: solid 2px var(--primaire);
+  border-radius: 5px;
 }
 .panels-navigation {
   position: absolute;
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
   width: 100%;
   bottom: 2rem;
   right: 2rem;
 }
-.container {
+/* .container {
   margin: auto;
-}
+} */
 /* nav */
 
 .sidenav {
@@ -82,29 +98,33 @@ nav {
 }
 
 .anchor {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 8px;
   text-decoration: none;
   font-size: 25px;
-  color: pink;
+  color: var(--primaire);
   display: block;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .sidenav a:hover {
-  color: red;
+  color: var(--tertiaire);
 }
 
 .sidenav ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 0.5rem;
+  padding-right: 2rem;
+  max-width: 60%;
   display: flex;
+  flex-wrap: wrap;
   position: absolute;
-  right: 2vw;
-  top: 1vw;
+  right: 5px;
+  top: 25%;
+  transform: translate(0, -25%);
   z-index: 99;
-  background-color: yellow;
+  background-color: var(--secondaire);
+  border-radius: 5px;
 }
 
 .sidenav.active {
@@ -112,29 +132,234 @@ nav {
   display: block;
 }
 .sidenav .activeL {
-  color: blue;
+  color: var(--tertiaire);
+  border: solid 2px var(--primaire);
+  background-color: var(--primaire);
+  border-radius: 5px;
 }
 .sidenav .close {
   position: absolute;
-  top: 0px;
-  right: -20px;
+  top: 25px;
+  right: -10px;
   font-size: 36px;
   cursor: pointer;
   z-index: 999;
-  color: pink;
+  color: var(--primaire);
 }
 .burger-icon {
   position: absolute;
-  right: 2vw;
-  top: 1vw;
+  right: 1%;
+  top: 25%;
   z-index: 1;
 }
 .burger-icon span {
   display: block;
   width: 35px;
   height: 5px;
-  background-color: red;
+  background-color: var(--secondaire);
   margin: 6px 0;
 }
 
-/* nav */
+/* reveal appear */
+
+h2 {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  transform: translate(-50% -50%);
+  color: var(--primaire);
+  font-size: 3rem;
+  text-align: center;
+  font-family: cursive;
+  background-color: var(--secondaire);
+  padding: 0 3rem 1rem 3rem;
+  border-radius: 1rem;
+}
+
+.reveal {
+  position: absolute;
+}
+.reveal img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  opacity: 0;
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+  transform: translate(-100%);
+}
+
+.reveal-visible img {
+  animation: 1s ease-out 700ms 1 normal forwards running revealImg;
+}
+.reveal-visible {
+  position: absolute;
+  animation: 1s ease-out 700ms 1 normal forwards running reveal;
+}
+
+@keyframes reveal {
+  0% {
+    bottom: 90vh;
+    right: 0;
+  }
+  100% {
+    bottom: 40vh;
+    right: 28%;
+  }
+}
+@keyframes revealImg {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+    scale: 1;
+  }
+  100% {
+    opacity: 1;
+    scale: 1.5;
+    border: solid 5px var(--primaire);
+  }
+}
+
+.appear1 {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -10%);
+}
+.appear11,
+.appear13,
+.appear15 {
+  opacity: 0;
+  background-color: var(--primaire);
+  color: var(--secondaire);
+  padding: 2rem;
+  border-radius: 50%;
+}
+.appear12,
+.appear14 {
+  opacity: 0;
+  background-color: var(--secondaire);
+  color: var(--primaire);
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.reveal3 {
+  opacity: 0;
+  /* width: 100%; */
+  max-width: 1100px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  padding: 2rem 5rem 5rem 5rem;
+  transform: translate(-50%, -50%);
+  background-color: rgba(245, 222, 179, 0.6);
+  border-radius: 50%;
+}
+.reveal3 div {
+  width: auto;
+  margin: auto;
+}
+.reveal3 img {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  border: solid 5px var(--primaire);
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--secondaire);
+  background: var(--primaire);
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.reveal-visible3 {
+  animation: 7s ease-out 700ms 1 normal forwards running reveal3;
+}
+@keyframes reveal3 {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+figure {
+  width: 25rem;
+}
+figcaption {
+  width: 100%;
+  height: 3rem;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--secondaire);
+  background-color: var(--primaire);
+  margin-bottom: 1rem;
+  margin-top: -0.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.appear-visible :nth-child(1) {
+  animation: 300ms ease-in 800ms 1 normal forwards running appear;
+}
+.appear-visible :nth-child(2) {
+  animation: 300ms ease-in 1000ms 1 normal forwards running appear;
+}
+.appear-visible :nth-child(3) {
+  animation: 300ms ease-in 1100ms 1 normal forwards running appear;
+}
+.appear-visible :nth-child(4) {
+  animation: 300ms ease-in 1300ms 1 normal forwards running appear;
+}
+.appear-visible :nth-child(5) {
+  animation: 300ms ease-in 1500ms 1 normal forwards running appear;
+}
+.appear-visible :nth-child(6) {
+  animation: 300ms ease-in 1700ms 1 normal forwards running appear;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* home */
+#home,
+#contact {
+  background-image: url(../../assets/portfolio11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 2rem;
+}
