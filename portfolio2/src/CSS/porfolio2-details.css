@@ -1,0 +1,148 @@
+:root {
+  --primaire: rgb(70, 53, 53);
+  --secondaire: wheat;
+  --tertiaire: rgb(246, 195, 99);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--primaire);
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  background-color: var(--primaire);
+  padding-bottom: 1rem;
+}
+h1 {
+  color: var(--secondaire);
+  font-size: 6rem;
+  text-align: left;
+  margin-left: 2rem;
+  font-family: cursive;
+}
+h2 {
+  width: 35%;
+  background-color: var(--secondaire);
+  margin: 2rem auto;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+h4 {
+  color: black;
+  margin-bottom: 0.2rem;
+}
+p {
+  color: rgba(0, 0, 0, 0.97);
+}
+.back {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0.5rem;
+  background-color: wheat;
+  border-radius: 20%;
+}
+.back a {
+  text-decoration: none;
+  color: var(--primaire);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main {
+  width: 80%;
+  max-width: 1590px;
+  margin: auto;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(189, 189, 190, 0.5);
+}
+.thumbs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumbnail {
+  padding: 0;
+  margin: auto;
+}
+figure {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+/* figure:hover {
+  transform: scale(1.2);
+} */
+img:hover {
+  transform: scale(1.2);
+  border: outset 15px var(--primaire);
+}
+img:hover + .figcaption {
+  display: none;
+}
+img {
+  width: inherit;
+}
+figcaption {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+  main {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1500px) and (max-width: 1550px) {
+  main {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 999px) {
+  .thumbs {
+    display: block;
+    margin: auto;
+  }
+  figure {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  figure {
+    width: 350px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .back a {
+    font-size: 0.8rem;
+  }
+  .back {
+    top: 10px;
+    right: 10px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  figure {
+    width: 280px;
+  }
+  main {
+    width: auto;
+    padding: 1rem;
+  }
+}
