@@ -48,7 +48,7 @@ a {
 }
 
 #panels #panels-container {
-  width: 900%;
+  width: 800%;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
