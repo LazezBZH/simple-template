@@ -47,26 +47,13 @@ tween = gsap.to(panels, {
 });
 
 // reveal appear
-
-const ratio2 = 0;
+const ratio2 = 0.2;
 
 const options2 = {
   root: null,
   rootMargin: "0px",
   threshold: ratio2,
 };
-const handleReveal1 = function (entries) {
-  const reveal1 = document.querySelector(".reveal1");
-
-  entries.forEach((entry) => {
-    if (entry.intersectionRatio > ratio2) {
-      console.log("visible1");
-      reveal1.classList.add("reveal-visible");
-    } else console.log("Invisible1");
-  });
-  console.log(handleReveal1);
-};
-
 const handleReveal3 = function (entries) {
   const reveal3 = document.querySelector(".reveal3");
 
@@ -80,27 +67,7 @@ const handleReveal3 = function (entries) {
   console.log(handleReveal3);
 };
 
-const handleAppear1 = function (entries) {
-  const appear1 = document.querySelector(".appear1");
-
-  entries.forEach((entry) => {
-    if (entry.intersectionRatio > ratio2) {
-      console.log("appear");
-
-      appear1.classList.add("appear-visible");
-    } else console.log("Nonappear");
-  });
-  console.log(handleAppear1);
-};
-
-const observer12 = new IntersectionObserver(handleReveal1, options2);
-
 const observer32 = new IntersectionObserver(handleReveal3, options2);
-const observer42 = new IntersectionObserver(handleAppear1, options2);
-
-var target12 = document.querySelector(".heading1");
-observer12.observe(target12);
-observer42.observe(target12);
 
 var target32 = document.querySelector(".heading3");
 observer32.observe(target32);

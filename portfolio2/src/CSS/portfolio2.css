@@ -178,6 +178,7 @@ h2 {
 
 .reveal {
   position: absolute;
+  animation: 1s ease-out 700ms 1 normal forwards running reveal;
 }
 .reveal img {
   width: 10vw;
@@ -188,14 +189,7 @@ h2 {
   bottom: 50%;
   right: 0%;
   transform: translate(-100%);
-}
-
-.reveal-visible img {
   animation: 1s ease-out 700ms 1 normal forwards running revealImg;
-}
-.reveal-visible {
-  position: absolute;
-  animation: 1s ease-out 700ms 1 normal forwards running reveal;
 }
 
 @keyframes reveal {
@@ -321,24 +315,22 @@ figcaption {
   border-bottom-left-radius: 5px;
 }
 
-.appear-visible :nth-child(1) {
+.appear11 {
   animation: 300ms ease-in 800ms 1 normal forwards running appear;
 }
-.appear-visible :nth-child(2) {
+.appear12 {
   animation: 300ms ease-in 1000ms 1 normal forwards running appear;
 }
-.appear-visible :nth-child(3) {
+.appear13 {
   animation: 300ms ease-in 1100ms 1 normal forwards running appear;
 }
-.appear-visible :nth-child(4) {
+.appear14 {
   animation: 300ms ease-in 1300ms 1 normal forwards running appear;
 }
-.appear-visible :nth-child(5) {
+.appear15 {
   animation: 300ms ease-in 1500ms 1 normal forwards running appear;
 }
-.appear-visible :nth-child(6) {
-  animation: 300ms ease-in 1700ms 1 normal forwards running appear;
-}
+
 @keyframes appear {
   0% {
     opacity: 0;
