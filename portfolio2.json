@@ -1,0 +1,310 @@
+{
+  "arts": [
+    {
+      "id": "1",
+      "theme": "peintures",
+      "background": "/portfolio2/assets/peintures/peintures1.jpg",
+      "name": "Peintures",
+      "color": "#A7727D",
+      "products": [
+        {
+          "id": 1,
+          "cover": "/portfolio2/assets/peintures/peintures2.jpg",
+          "title": "Cygne",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 2,
+          "cover": "/portfolio2/assets/peintures/peintures3.jpg",
+          "title": "Roses",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 3,
+          "cover": "/portfolio2/assets/peintures/peintures4.jpg",
+          "title": "Sun",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 4,
+          "cover": "/portfolio2/assets/peintures/peintures5.jpg",
+          "title": "Pommes",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 5,
+          "cover": "/portfolio2/assets/peintures/peintures6.jpg",
+          "title": "Et là coule une rivière",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 6,
+          "cover": "/portfolio2/assets/peintures/peintures7.jpg",
+          "title": "Miaou!",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "theme": "encres",
+      "background": "/portfolio2/assets/encres/encres1.jpg",
+      "name": "Encres",
+      "color": "#20262E",
+      "products": [
+        {
+          "id": 1,
+          "cover": "/portfolio2/assets/encres/encres2.jpg",
+          "title": "Portrait",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 2,
+          "cover": "/portfolio2/assets/encres/encres3.jpg",
+          "title": "Faith",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 3,
+          "cover": "/portfolio2/assets/encres/encres4.jpg",
+          "title": "Lines",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 4,
+          "cover": "/portfolio2/assets/encres/encres5.jpg",
+          "title": "Fumée",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 5,
+          "cover": "/portfolio2/assets/encres/encres6.jpg",
+          "title": "Main",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 6,
+          "cover": "/portfolio2/assets/encres/encres7.jpg",
+          "title": "Tâche",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "theme": "sculptures",
+      "background": "/portfolio2/assets/sculptures/sculptures1.jpg",
+      "name": "Sculptures",
+      "color": "#65647C",
+      "products": [
+        {
+          "id": 1,
+          "cover": "/portfolio2/assets/sculptures/sculptures2.jpg",
+          "title": "Où sont mes cheveux?",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 2,
+          "cover": "/portfolio2/assets/sculptures/sculptures3.jpg",
+          "title": "Repos",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 3,
+          "cover": "/portfolio2/assets/sculptures/sculptures4.jpg",
+          "title": "Plonge!",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 4,
+          "cover": "/portfolio2/assets/sculptures/sculptures5.jpg",
+          "title": "Bruce",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 5,
+          "cover": "/portfolio2/assets/sculptures/sculptures6.jpg",
+          "title": "Hamlet",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 6,
+          "cover": "/portfolio2/assets/sculptures/sculptures7.jpg",
+          "title": "History",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "theme": "metal",
+      "background": "/portfolio2/assets/metal/metal1.jpg",
+      "name": "Métal",
+      "color": "#B2B2B2",
+      "products": [
+        {
+          "id": 1,
+          "cover": "/portfolio2/assets/metal/metal2.jpg",
+          "title": "Moto",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 2,
+          "cover": "/portfolio2/assets/metal/metal3.jpg",
+          "title": "Hart",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 3,
+          "cover": "/portfolio2/assets/metal/metal4.jpg",
+          "title": "Pâques",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 4,
+          "cover": "/portfolio2/assets/metal/metal5.jpg",
+          "title": "Feuilles",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 5,
+          "cover": "/portfolio2/assets/metal/metal6.jpg",
+          "title": "Cow boy",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 6,
+          "cover": "/portfolio2/assets/metal/metal7.jpg",
+          "title": "Main",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "theme": "bois",
+      "background": "/portfolio2/assets/bois/bois1.jpg",
+      "name": "Bois",
+      "color": "#AA8B56",
+      "products": [
+        {
+          "id": 1,
+          "cover": "/portfolio2/assets/bois/bois2.jpg",
+          "title": "Chevaux",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 2,
+          "cover": "/portfolio2/assets/bois/bois3.jpg",
+          "title": "Human",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 3,
+          "cover": "/portfolio2/assets/bois/bois4.jpg",
+          "title": "Kiss",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 4,
+          "cover": "/portfolio2/assets/bois/bois5.jpg",
+          "title": "Ronde",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 5,
+          "cover": "/portfolio2/assets/bois/bois6.jpg",
+          "title": "Bouc",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 6,
+          "cover": "/portfolio2/assets/bois/bois7.jpg",
+          "title": "I am the king!",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "theme": "photos",
+      "background": "/portfolio2/assets/photos/photos1.jpg",
+      "name": "Photos",
+      "color": "#BCE29E",
+      "products": [
+        {
+          "id": 1,
+          "cover": "/portfolio2/assets/photos/photos2.jpg",
+          "title": "Sérénité",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 2,
+          "cover": "/portfolio2/assets/photos/photos3.jpg",
+          "title": "Papillon",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 3,
+          "cover": "/portfolio2/assets/photos/photos4.jpg",
+          "title": "Tombée de la nuit",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 4,
+          "cover": "/portfolio2/assets/photos/photos5.jpg",
+          "title": "Rosée",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 5,
+          "cover": "/portfolio2/assets/photos/photos6.jpg",
+          "title": "Best friends",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        },
+        {
+          "id": 6,
+          "cover": "/portfolio2/assets/photos/photos7.jpg",
+          "title": "Wedding!",
+          "description": "Lorem ipsum dolor sit amet. Qui totam nemo ex iure distinctio ut atque praesentium sed iure dolore.",
+          "details": "Qui velit neque At molestias ratione ut quos accusamus ut repellat esse aut iure mollitia et explicabo adipisci. Et Quis veritatis ut aliquam beatae quo ipsam repudiandae aut praesentium deleniti qui dolorem necessitatibus quo culpa obcaecati sed dolores corporis."
+        }
+      ]
+    }
+  ]
+}
