@@ -22,7 +22,7 @@ h2 {
 #header {
   position: fixed;
   display: flex;
-  z-index: 9999;
+  z-index: 1;
   align-items: center;
   width: 100%;
   background-color: var(--primaire);
@@ -84,7 +84,7 @@ a {
   gap: 10px;
   width: 100%;
   bottom: 2rem;
-  right: 2rem;
+  right: 1rem;
 }
 /* .container {
   margin: auto;
@@ -122,7 +122,7 @@ a {
   right: 5px;
   top: 25%;
   transform: translate(0, -25%);
-  z-index: 99;
+  z-index: 2;
   background-color: var(--secondaire);
   border-radius: 5px;
 }
@@ -143,7 +143,7 @@ a {
   right: -10px;
   font-size: 36px;
   cursor: pointer;
-  z-index: 999;
+  z-index: 3;
   color: var(--primaire);
 }
 .burger-icon {
@@ -297,23 +297,6 @@ h2 {
     opacity: 1;
   }
 }
-figure {
-  width: 25rem;
-}
-figcaption {
-  width: 100%;
-  height: 3rem;
-  font-size: 3rem;
-  text-align: center;
-  color: var(--secondaire);
-  background-color: var(--primaire);
-  margin-bottom: 1rem;
-  margin-top: -0.3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
 
 .appear11 {
   animation: 300ms ease-in 800ms 1 normal forwards running appear;
@@ -341,7 +324,7 @@ figcaption {
   }
 }
 
-/* home */
+/* home contact */
 #home,
 #contact {
   background-image: url(../../assets/portfolio11.jpg);
@@ -354,4 +337,90 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   width: 2rem;
+}
+
+/* galeries */
+.photos-container {
+  width: 60%;
+  height: 50%;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* peintures */
+.thumbs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.thumbnail-cover {
+  width: 30%;
+}
+.thumbnail-img img {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+.tooltip img {
+  width: 8rem;
+  float: left;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: zoom-in;
+}
+.tooltip img:hover {
+  height: 17rem;
+  width: auto;
+}
+
+h3,
+h4 {
+  padding: 0 2rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+h4 {
+  font-size: 1rem;
+}
+.tooltip p {
+  text-align: justify;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+.tooltip {
+  visibility: hidden;
+  width: 50rem;
+  height: 20rem;
+  background-color: var(--primaire);
+  color: #fff;
+  text-align: center;
+  border: solid 5px var(--secondaire);
+  border-radius: 6px;
+  color: var(--secondaire);
+  padding: 5px;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip div {
+  padding: 10px;
+}
+
+.thumbnail-cover:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
