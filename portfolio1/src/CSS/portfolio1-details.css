@@ -81,9 +81,7 @@ figure {
   margin: auto;
   margin-bottom: 1.5rem;
 }
-/* figure:hover {
-  transform: scale(1.2);
-} */
+
 img:hover {
   transform: scale(1.2);
   border: outset 15px var(--primaire);
