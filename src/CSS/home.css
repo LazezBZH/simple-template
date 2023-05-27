@@ -41,11 +41,14 @@ main {
 footer {
   width: 100%;
   /* height: 100px; */
-  position: absolute;
+  /* position: absolute;
+  
+  bottom: 1%; */
   text-align: center;
-  bottom: 0;
   background-color: rgba(245, 245, 245, 0.05);
-  padding: 1rem 0 0 0;
+  padding: 1rem 0;
+  position: relative;
+  margin-top: -22rem;
 }
 
 .home-logo {
@@ -132,6 +135,12 @@ label {
   display: none;
 }
 
+@media screen and (max-width: 1440px) {
+  footer {
+    margin-top: -15rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .para-desk {
     display: none;
@@ -204,7 +213,7 @@ label {
   }
   footer {
     position: relative;
-    margin-top: -18rem;
+    margin-top: -15rem;
   }
 }
 @media screen and (max-width: 430px) {
