@@ -1,7 +1,7 @@
 // peintures
 
 function initPeintures() {
-  fetch("/portfolio1.json")
+  fetch("/portfolio2.json")
     .then((response) => response.json())
     .then((data) => {
       let art = "";
@@ -13,13 +13,6 @@ function initPeintures() {
 }
 
 function renderPeintures(art) {
-  const bodyPeintures = document.querySelector("#panel-1");
-
-  bodyPeintures.style.background = "url(" + art.background + ") ";
-  bodyPeintures.style.backgroundRepeat = "no-repeat";
-  bodyPeintures.style.backgroundSize = "cover";
-  bodyPeintures.style.backgroundPosition = "center center";
-
   let color = art.color;
   const peintures = document.getElementById("peintures-container");
   peintures.style.backgroundColor = color;
@@ -32,19 +25,25 @@ function renderPeintures(art) {
 
     divThumbsPeintures.innerHTML += `<div class="thumbnail-cover" >
     <div class="thumbnail-img">
-    <a><img  src="${art.cover}" alt="${art.title}"></>
+    <img  src="${art.cover}" alt="${art.title}"></>
          </div>
     
                           <span class="tooltip">
                          
-    <div><img class="thumbnail-cover-big" id="thumbnail-cover" src="${art.cover}"
+    <figure >
+    <img class="thumbnail-cover-big" id="thumbnail-cover" src="${art.cover}"
          alt="${art.title}">
-    
+    <figcaption class="figcaption">
+    <div class="thumbnail-content">
     <h3 class="thumbnail-title" > ${art.title}</h3>
                             <h4 class="thumbnail-description" >${art.description}</h4>
-                          <p>${art.details}</p></div>
-                         
+                          <p>${art.details}</p>
+                           </figcaption>
+                           <span class="closeTooltipHover">x</span>
+                           </figure>
+                            
                            </span>
+                         
                         </div>
     
    
@@ -58,7 +57,7 @@ initPeintures();
 // encres
 
 function initEncres() {
-  fetch("/portfolio1.json")
+  fetch("/portfolio2.json")
     .then((response) => response.json())
     .then((data) => {
       let art = "";
@@ -70,13 +69,6 @@ function initEncres() {
 }
 
 function renderEncres(art) {
-  const bodyEncres = document.querySelector("#panel-2");
-
-  bodyEncres.style.background = "url(" + art.background + ") ";
-  bodyEncres.style.backgroundRepeat = "no-repeat";
-  bodyEncres.style.backgroundSize = "cover";
-  bodyEncres.style.backgroundPosition = "center center";
-
   let color = art.color;
   const encres = document.getElementById("encres-container");
   encres.style.backgroundColor = color;
@@ -101,6 +93,7 @@ function renderEncres(art) {
                             <h4 class="thumbnail-description" >${art.description}</h4>
                           <p>${art.details}</p>
                            </figcaption>
+                           <span class="closeTooltipHover">x</span>
                            </figure></span>
                         </div>
     
@@ -115,7 +108,7 @@ initEncres();
 // sculptures
 
 function initSculptures() {
-  fetch("/portfolio1.json")
+  fetch("/portfolio2.json")
     .then((response) => response.json())
     .then((data) => {
       let art = "";
@@ -127,13 +120,6 @@ function initSculptures() {
 }
 
 function renderSculptures(art) {
-  const bodySculptures = document.querySelector("#panel-3");
-
-  bodySculptures.style.background = "url(" + art.background + ") ";
-  bodySculptures.style.backgroundRepeat = "no-repeat";
-  bodySculptures.style.backgroundSize = "cover";
-  bodySculptures.style.backgroundPosition = "center center";
-
   let color = art.color;
   const sculptures = document.getElementById("sculptures-container");
   sculptures.style.backgroundColor = color;
@@ -158,6 +144,7 @@ function renderSculptures(art) {
                             <h4 class="thumbnail-description" >${art.description}</h4>
                           <p>${art.details}</p>
                            </figcaption>
+                           <span class="closeTooltipHover">x</span>
                            </figure></span>
                         </div>
     
@@ -172,7 +159,7 @@ initSculptures();
 // metal
 
 function initMetal() {
-  fetch("/portfolio1.json")
+  fetch("/portfolio2.json")
     .then((response) => response.json())
     .then((data) => {
       let art = "";
@@ -184,13 +171,6 @@ function initMetal() {
 }
 
 function renderMetal(art) {
-  const bodyMetal = document.querySelector("#panel-4");
-
-  bodyMetal.style.background = "url(" + art.background + ") ";
-  bodyMetal.style.backgroundRepeat = "no-repeat";
-  bodyMetal.style.backgroundSize = "cover";
-  bodyMetal.style.backgroundPosition = "center center";
-
   let color = art.color;
   const metal = document.getElementById("metal-container");
   metal.style.backgroundColor = color;
@@ -215,6 +195,7 @@ function renderMetal(art) {
                             <h4 class="thumbnail-description" >${art.description}</h4>
                           <p>${art.details}</p>
                            </figcaption>
+                           <span class="closeTooltipHover">x</span>
                            </figure></span>
                         </div>
     
@@ -229,7 +210,7 @@ initMetal();
 // bois
 
 function initBois() {
-  fetch("/portfolio1.json")
+  fetch("/portfolio2.json")
     .then((response) => response.json())
     .then((data) => {
       let art = "";
@@ -241,13 +222,6 @@ function initBois() {
 }
 
 function renderBois(art) {
-  const bodyBois = document.querySelector("#panel-5");
-
-  bodyBois.style.background = "url(" + art.background + ") ";
-  bodyBois.style.backgroundRepeat = "no-repeat";
-  bodyBois.style.backgroundSize = "cover";
-  bodyBois.style.backgroundPosition = "center center";
-
   let color = art.color;
   const bois = document.getElementById("bois-container");
   bois.style.backgroundColor = color;
@@ -272,6 +246,7 @@ function renderBois(art) {
                             <h4 class="thumbnail-description" >${art.description}</h4>
                           <p>${art.details}</p>
                            </figcaption>
+                           <span class="closeTooltipHover">x</span>
                            </figure></span>
                         </div>
     
@@ -283,30 +258,23 @@ function renderBois(art) {
 
 initBois();
 
-// photos
+// photos;
 
 function initPhotos() {
-  fetch("/portfolio1.json")
+  fetch("/portfolio2.json")
     .then((response) => response.json())
     .then((data) => {
       let art = "";
 
       art = data.arts.filter((art) => art.theme == "photos")[0];
-
+      console.log("art", art);
       renderPhotos(art);
     });
 }
 
 function renderPhotos(art) {
-  const bodyPhotos = document.querySelector("#panel-6");
-
-  bodyPhotos.style.background = "url(" + art.background + ") ";
-  bodyPhotos.style.backgroundRepeat = "no-repeat";
-  bodyPhotos.style.backgroundSize = "cover";
-  bodyPhotos.style.backgroundPosition = "center center";
-
   let color = art.color;
-  const photos = document.getElementById("photos-container");
+  const photos = document.querySelector(".photos-container_photos");
   photos.style.backgroundColor = color;
   let thisArts = art.products;
 
@@ -318,7 +286,7 @@ function renderPhotos(art) {
     divThumbsPhotos.innerHTML += `<div class="thumbnail-cover" >
     <div class="thumbnail-img"><img  src="${art.cover}"
          alt="${art.title}"></div>
-    
+
                           <span class="tooltip">
                           <figure >
     <img class="thumbnail-cover-big" id="thumbnail-cover" src="${art.cover}"
@@ -329,10 +297,9 @@ function renderPhotos(art) {
                             <h4 class="thumbnail-description" >${art.description}</h4>
                           <p>${art.details}</p>
                            </figcaption>
+                           <span class="closeTooltipHover">x</span>
                            </figure></span>
                         </div>
-    
-   
 
 `;
   }

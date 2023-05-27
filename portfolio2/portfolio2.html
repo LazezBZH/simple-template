@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="https://fontlibrary.org//face/roboto-1" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./src/CSS/portfolio2.css"/>
+        <link rel="stylesheet" href="./src/CSS/portfolio2-resp.css"/>
        
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -37,172 +38,194 @@
 <meta name="theme-color" content="#ffffff">
     </head>
     <body>
- 
 
-        <header id="header" class="header" >
+          <header class="headerTop">
             <h1>PORTFOLIO</h1>
-            <div class="nav">   
-                <nav id="mySidenav" class="sidenav anchor-nav">
-                    <a id="closeBtn"  class="close"> &#x2620; </a>
-                    <ul class="closeToo">
-             
-                        <li class="list-item"><a href="#home" id="link-1" class="anchor activeL">Home</a></li>
-                        <li class="list-item"><a href="#panel-1" id="link-2" class="anchor">Peintures</a></li>
-                        <li class="list-item"><a href="#panel-2" id="link-3" class="anchor">Encres</a></li>
-                        <li class="list-item"><a href="#panel-3" id="link-4" class="anchor">Sculptures</a></li>
-                        <li class="list-item"><a href="#panel-4" id="link-5" class="anchor">Métal</a></li>
-                        <li class="list-item"><a href="#panel-5" id="link-6" class="anchor">Bois</a></li>
-                        <li class="list-item"><a href="#panel-6" id="link-7" class="anchor">Photos</a></li>
-                        <li class="list-item"><a href="#contact" id="link-8" class="anchor">Contact</a></li>
+            <nav id="nav" data-hsnav>
+                <a href="#" data-hsLink>Accueil</a>
+                <a href="#" data-hsLink>Peintures</a>
+                <a href="#" data-hsLink>Encres</a>
+                <a href="#" data-hsLink>Sculptures</a>
+                <a href="#" data-hsLink>Métal</a>
+                <a href="#" data-hsLink>Bois</a>
+                <a href="#" data-hsLink>Photos</a>
+                <a class="invisA" href="#" data-hsLink>Merci</a>
+                <a class="invisA" href="#" data-hsLink>Au revoir</a>
+            </nav>
+            <div class="nav_mobil">   
+                <nav id="mySidenav_mobil" class="sidenav_mobil anchor-nav__mobil">
+                    <a id="closeBtn_mobil"  class="close_mobil"> &#x2620; </a>
+                    <ul class="closeToo_mobil">            
+                        <li class="list-item_mobil"><a href="#home" id="link-1_mobil" class="anchor_mobil ">Home</a></li>
+                        <li class="list-item_mobil"><a href="#panel-1" id="link-2_mobil" class="anchor_mobil">Peintures</a></li>
+                        <li class="list-item_mobil"><a href="#panel-2" id="link-3_mobil" class="anchor_mobil">Encres</a></li>
+                        <li class="list-item_mobil"><a href="#panel-3" id="link-4_mobil" class="anchor_mobil">Sculptures</a></li>
+                        <li class="list-item_mobil"><a href="#panel-4" id="link-5_mobil" class="anchor_mobil">Métal</a></li>
+                        <li class="list-item_mobil"><a href="#panel-5" id="link-6_mobil" class="anchor_mobil">Bois</a></li>
+                        <li class="list-item_mobil"><a href="#panel-6" id="link-7_mobil" class="anchor_mobil">Photos</a></li>
+
                     </ul>
                 </nav>
 
-                <a id="openBtn">
-                    <span class="burger-icon">
+                <a id="openBtn_mobil">
+                    <span class="burger-icon_mobil">
                     <span></span>
                     <span></span>
                     <span></span>
                     </span>
                 </a>
             </div>
-       
+
         </header>
 
-        <main id="main" class="main">
+        <main class="horizontal-scroll-wrapper" data-hs>
+        <span data-hsprev></span>
+        <span data-hsnext></span>
 
-            <section id="panels">
 
-                <div id="panels-container">
-                 
-                    <article id="home" class="panel">
-                        
-                        <div class="container heading heading1" >      
-                            <h2>Qui suis-je?</h2>
-                <div class="reveal reveal1">
-                </div>
-                <div class="appear appear1"><p class="appear11"></p><p class="appear12"></p><p class="appear13"></p><p class="appear14"></p><p class="appear15"></p></div>
-                            <div class="panels-navigation">
+
+        <section class="slide-container" data-hsContainer>
+            <section class="slide slide-1">
+            <article id="home" class="panel content">
                             
-                                <div class="nav-panel"><a href="#panel-1" class="anchor">Next</a></div>
-                            </div>
-                        </div>
-
-                    </article>
-                    <article id="panel-1" class="panel">
-                        <div class="container">
-
-                            <h2>PEINTURES</h2>
-
-                            <div class="photos-container" id="peintures-container"></div>
-
-                            <div class="panels-navigation">
-                                <div class="nav-panel"><a href="#home" class="anchor">Prev</a></div>
-                                <div class="nav-panel"><a href="#panel-2" class="anchor">Next</a></div>
-                            </div>
-
-                        </div>
-                    </article>
-                    <article id="panel-2" class="panel">
-                        <div class="container">
-
-                            <h2>ENCRES</h2>
-
-                            <div class="photos-container" id="encres-container"></div>
-
-                            <div class="panels-navigation ">
-                                <div class="nav-panel"><a href="#panel-1" class="anchor">Prev</a></div>
-                                <div class="nav-panel" ><a href="#panel-3" class="anchor">Next</a></div>
-                            </div>
+                            <div class="container heading heading1" >      
+                                <h2>Qui suis-je?</h2>
+                    <div class="reveal reveal1">
+                    </div>
+                    <div class="appear appear1"><p class="appear11"></p><p class="appear12"></p><p class="appear13"></p><p class="appear14"></p><p class="appear15"></p></div>
                             
-                        </div>
-                    </article>
-                    <article id="panel-3" class="panel">
-                        <div class="container">
 
-                            <h2>SCULPTURES</h2>
-
-                            <div class="photos-container" id="sculptures-container"></div>
-
-                            <div class="panels-navigation ">
-                                <div class="nav-panel"><a href="#panel-2" class="anchor">Prev</a></div>
-                                <div class="nav-panel" ><a href="#panel-4" class="anchor">Next</a></div>
-                            </div>
-                            
-                        </div>
-                    </article>
-                    <article id="panel-4" class="panel">
-                        <div class="container">
-
-                            <h2>MÉTAL</h2>
-
-                            <div class="photos-container" id="metal-container"></div>
-
-                            <div class="panels-navigation ">
-                                <div class="nav-panel"><a href="#panel-3" class="anchor">Prev</a></div>
-                                <div class="nav-panel" ><a href="#panel-5" class="anchor">Next</a></div>
-                            </div>
-                            
-                        </div>
-                    </article>
-                    <article id="panel-5" class="panel">
-                        <div class="container">
-
-                            <h2>BOIS</h2>
-
-                            <div class="photos-container" id="bois-container"></div>
-
-                            <div class="panels-navigation ">
-                                <div class="nav-panel"><a href="#panel-4" class="anchor">Prev</a></div>
-                                <div class="nav-panel" ><a href="#panel-6" class="anchor">Next</a></div>
-                            
-                            </div>
-                            
-                        </div>
-                    </article>
-                    <article id="panel-6" class="panel">
-                        <div class="container">
-
-                            <h2>PHOTOS</h2>
-
-                            <div class="photos-container" id="photos-container"></div>
-
-                            <div class="panels-navigation ">
-                                <div class="nav-panel"><a href="#panel-5" class="anchor">Prev</a></div>
-                                <div class="nav-panel" ><a href="#contact" class="anchor">Next</a></div>
-                            
-                            </div>
-                            
-                        </div>
-                    </article>
-                    <article id="contact" class="panel">
-                        <div class="container heading heading3">
-
-                            <h2>CONTACT</h2>
-
-                           <div class=" reveal3">
-                </div>
-
-                            <div class="panels-navigation ">
-                                <div class="nav-panel"><a href="#panel-6" class="anchor">Prev</a></div>
-                            
-                            </div>
-                            
-                        </div>
-                    </article>
-                </div>
+                        </article>
             </section>
 
+            <section class="slide slide-2">
+            <article id="panel-1" class="panel content">
+                            <div class="container containerP">
+
+                                <h2>PEINTURES</h2>
+                           
+
+                                <div class="photos-container" id="peintures-container"></div>
+
+                            
+
+                            </div>
+                        </article>
+            </section>
+
+            <section class="slide slide-3">
+            <article id="panel-2" class="panel content">
+                            <div class="container containerP">
+
+                                <h2>ENCRES</h2>
+
+                                <div class="photos-container" id="encres-container"></div>
+
+                            
+                                
+                            </div>
+                        </article>
+            </section>
+
+            <section class="slide slide-4">
+            <article id="panel-3" class="panel content">
+                            <div class="container containerP">
+
+                                <h2>SCULPTURES</h2>
+
+                                <div class="photos-container" id="sculptures-container"></div>
+
+                                
+                                
+                            </div>
+                        </article>
+            </section>
+
+            <section class="slide slide-5">
+            <article id="panel-4" class="panel content">
+                            <div class="container containerP">
+
+                                <h2>MÉTAL</h2>
+
+                                <div class="photos-container" id="metal-container"></div>
+
+                            
+                                
+                            </div>
+                        </article>
+            </section>
+
+            <section class="slide slide-6">
+            <article id="panel-5" class="panel content">
+                            <div class="container containerP">
+
+                                <h2>BOIS</h2>
+
+                                <div class="photos-container" id="bois-container"></div>
+
+                                
+                                
+                            </div>
+                </article>
+            </section>
+
+            <section class="slide slide-7">
+            <article id="panel-6" class="panel content panel-6">
+                            <div class="container containerP">
+
+                                <h2>PHOTOS</h2>
+
+                                <div class="photos-container photos-container_photos" ></div>
+
+                                
+                                
+                            </div>
+                    
+                </article>
+            </section>
+            
+
+
+            <section class="slide slide-8">
+            <article  class="panel content " id="thanks">
+                            
+
+                                <h2 >Merci d'avoir visité mon portfolio, j'espère que mon travail vous aura plu.</h2>
+
+                        
+                                
+                    
+                        </article>
+            </section>
+
+            <section class="slide slide-9">
+            <article  class="panel content " id="contact">
+                            
+
+                                <h2 >N'hésitez pas à me contacter. À bientôt!</h2>
+
+                        
+                                
+                    
+                        </article>
+            </section>
+
+
+            
+
+        </section>
         </main>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
-    <script src="./src/js/portfolio2.js"></script>
-    <script src="./src/js/portfolio2Nav.js"></script>
-    <script src="./src/js/portfolio2-arts.js"></script>
+    <footer >
     
+    </footer>
+
+
+   
+    <script src="./src/js/portfolio2-script.js"></script>
+    <script src="./src/js/portfolio2-scroll.js"></script>
+    <script src="./src/js/portfolio2-arts.js"></script>
+    <script src="./src/js/portfolio2-nav.js"></script>
 
     </body>
 </html>
