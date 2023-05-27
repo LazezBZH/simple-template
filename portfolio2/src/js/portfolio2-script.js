@@ -37,11 +37,3 @@ function renderFromUser(user) {
 }
 
 init();
-
-const closeTooltip = document.querySelector(".closeTooltip");
-const tooltip = document.querySelector(".tooltip");
-closeTooltip.addEventListener("click", closeThisTooltip);
-function closeThisTooltip() {
-  tooltip.style.opacity = "0";
-  tooltip.style.visibility = "hidden";
-}
